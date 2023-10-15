@@ -17,9 +17,16 @@ class AEDataModule(pl.LightningDataModule):
             transforms.ToTensor(),
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
         ])
-
     def setup(self, stage=None):
-        self.dataset = ImageFolder(root=self.data_dir, transform=self.transform)
+        # Load the dataset using ImageFolder
+        full_dataset = ImageFolder(root=self.data_dir, transform=self.transform)
+        
+        # Get the index of the 'Gutteile' class
+        gutteile_idx = full_dataset.class_to_idx['Gutteile']
+        
+        # Filter the dataset to only have images from the 'Gutteile' class
+        self.dataset = torch.utils.data.Subset(full_dataset, 
+                       [i for i, (_, label) in enumerate(full_dataset.samples) if label == gutteile_idx])
 
     def train_dataloader(self):
         return DataLoader(self.dataset, batch_size=self.batch_size, shuffle=True)
@@ -120,7 +127,6 @@ class AutoEncoder(pl.LightningModule):
         super(AutoEncoder, self).__init__()
         self.encoder = Encoder()
         self.decoder = Decoder()
-        self.criterion = nn.MSELoss()
 
     def forward(self, x):
         latent = self.encoder(x)
@@ -141,22 +147,18 @@ class AutoEncoder(pl.LightningModule):
     def configure_optimizers(self):
         return torch.optim.Adam(self.parameters(), lr=0.0005)
 
-    def training_epoch_end(self, outputs):
-        # Saving model weights at the end of the epoch
-        torch.save(self.state_dict(), 'autoencoder_weights.pth')
-
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
-    parser.add_argument('datapath', type=str, help='Path to the data')
-    
+    parser.add_argument('--data_path', type=str, required=True, help='Path to the data')
     args = parser.parse_args()
-    data_path = args.datapath
+    data_path = args.data_path
     
     # Training
     data_module = AEDataModule(data_path)
     model = AutoEncoder()
     trainer = pl.Trainer(max_epochs=50)
     trainer.fit(model, datamodule=data_module)
+    torch.save(model.state_dict(), 'weights.pth')
 
 if __name__ == '__main__':
     main()
