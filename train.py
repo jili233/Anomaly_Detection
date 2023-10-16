@@ -7,9 +7,10 @@ from torch.utils.data import DataLoader
 import argparse
 
 class AEDataModule(pl.LightningDataModule):
-    def __init__(self, data_dir, batch_size=128, img_size=(256, 256)):
+    def __init__(self, data_dir, classes, batch_size=128, img_size=(256, 256)):
         super(AEDataModule, self).__init__()
         self.data_dir = data_dir
+        self.classes = classes
         self.batch_size = batch_size
         self.img_size = img_size
         self.transform = transforms.Compose([
@@ -21,12 +22,12 @@ class AEDataModule(pl.LightningDataModule):
         # Load the dataset using ImageFolder
         full_dataset = ImageFolder(root=self.data_dir, transform=self.transform)
         
-        # Get the index of the 'Gutteile' class
-        gutteile_idx = full_dataset.class_to_idx['Gutteile']
+        # Get the index of the class
+        classes_idx = full_dataset.class_to_idx[self.classes]
         
-        # Filter the dataset to only have images from the 'Gutteile' class
+        # Filter the dataset to only have images from the class
         self.dataset = torch.utils.data.Subset(full_dataset, 
-                       [i for i, (_, label) in enumerate(full_dataset.samples) if label == gutteile_idx])
+                       [i for i, (_, label) in enumerate(full_dataset.samples) if label == classes_idx])
 
     def train_dataloader(self):
         return DataLoader(self.dataset, batch_size=self.batch_size, shuffle=True)
@@ -151,11 +152,12 @@ class AutoEncoder(pl.LightningModule):
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
+    parser.add_argument("--classes", type=str, default='Gutteile', help='Classes used to train the model')
     parser.add_argument("--accelerator", default='cpu')
     args = parser.parse_args()
     
     # Training
-    data_module = AEDataModule(args.data_path)
+    data_module = AEDataModule(data_dir=args.data_path, classes=args.classes)
     model = AutoEncoder()
     trainer = pl.Trainer(max_epochs=50, accelerator=args.accelerator)
     trainer.fit(model, datamodule=data_module)
