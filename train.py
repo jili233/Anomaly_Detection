@@ -135,7 +135,8 @@ class AutoEncoder(pl.LightningModule):
     def ae_loss(self, y_true, y_pred):
         # Matching the original ae_loss calculation
         loss = torch.mean((y_true - y_pred) ** 2, dim=[1, 2, 3])
-        return loss
+        batch_average_loss = torch.mean(loss)
+        return batch_average_loss
 
     def training_step(self, batch, batch_idx):
         x, _ = batch
@@ -149,14 +150,14 @@ class AutoEncoder(pl.LightningModule):
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
-    parser.add_argument('--data_path', type=str, required=True, help='Path to the data')
+    parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
+    parser.add_argument("--accelerator", default='cpu')
     args = parser.parse_args()
-    data_path = args.data_path
     
     # Training
-    data_module = AEDataModule(data_path)
+    data_module = AEDataModule(args.data_path)
     model = AutoEncoder()
-    trainer = pl.Trainer(max_epochs=50)
+    trainer = pl.Trainer(max_epochs=50, accelerator=args.accelerator)
     trainer.fit(model, datamodule=data_module)
     torch.save(model.state_dict(), 'weights.pth')
 
