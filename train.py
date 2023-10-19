@@ -49,25 +49,25 @@ class Encoder(nn.Module):
         )
         
         self.conv_block_3 = nn.Sequential(
-            nn.Conv2d(64, 64, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(64),
+            nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
+            nn.BatchNorm2d(128),
             nn.LeakyReLU()
         )
         
         self.conv_block_4 = nn.Sequential(
-            nn.Conv2d(64, 64, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(64),
+            nn.Conv2d(128, 256, kernel_size=3, stride=2, padding=1),
+            nn.BatchNorm2d(256),
             nn.LeakyReLU()
         )
         
         self.conv_block_5 = nn.Sequential(
-            nn.Conv2d(64, 64, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(64),
+            nn.Conv2d(256, 512, kernel_size=3, stride=2, padding=1),
+            nn.BatchNorm2d(512),
             nn.LeakyReLU()
         )
         
         self.flatten = nn.Flatten()
-        self.fc = nn.Linear(64 * 8 * 8, 200)
+        self.fc = nn.Linear(512 * 8 * 8, 200)
         
     def forward(self, x):
         x = self.conv_block_1(x)
@@ -83,23 +83,23 @@ class Decoder(nn.Module):
     def __init__(self):
         super(Decoder, self).__init__()
         
-        self.fc = nn.Linear(200, 64 * 8 * 8)
-        self.reshape = lambda x: x.view(-1, 64, 8, 8)
+        self.fc = nn.Linear(200, 512 * 8 * 8)
+        self.reshape = lambda x: x.view(-1, 512, 8, 8)
         
         self.deconv_block_1 = nn.Sequential(
-            nn.ConvTranspose2d(64, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(64),
+            nn.ConvTranspose2d(512, 256, kernel_size=3, stride=2, padding=1, output_padding=1),
+            nn.BatchNorm2d(256),
             nn.LeakyReLU()
         )
         
         self.deconv_block_2 = nn.Sequential(
-            nn.ConvTranspose2d(64, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(64),
+            nn.ConvTranspose2d(256, 128, kernel_size=3, stride=2, padding=1, output_padding=1),
+            nn.BatchNorm2d(128),
             nn.LeakyReLU()
         )
         
         self.deconv_block_3 = nn.Sequential(
-            nn.ConvTranspose2d(64, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
+            nn.ConvTranspose2d(128, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
             nn.BatchNorm2d(64),
             nn.LeakyReLU()
         )
