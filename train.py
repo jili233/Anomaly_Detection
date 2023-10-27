@@ -3,164 +3,119 @@ import torch
 from torch import nn
 from torchvision import transforms
 from torchvision.datasets import ImageFolder
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, random_split
 import argparse
+import torchvision.models as models
 
-class AEDataModule(pl.LightningDataModule):
-    def __init__(self, data_dir, classes, batch_size=128, img_size=(256, 256)):
-        super(AEDataModule, self).__init__()
+class Backbone(pl.LightningModule):
+    def __init__(self, num_classes=2):
+        super(Backbone, self).__init__()
+
+        self.features = models.resnet18(pretrained=True)
+        
+        for param in self.features.parameters():
+            param.requires_grad = False
+        
+        in_features = self.features.fc.in_features
+        self.features.fc = nn.Linear(in_features, num_classes)
+        self.loss_fn = nn.CrossEntropyLoss()
+
+    def forward(self, x):
+        return self.features(x)
+    
+    def training_step(self, batch, batch_idx):
+        x, y = batch
+        logits = self(x)
+        loss = self.loss_fn(logits, y)
+        return loss
+    
+    def configure_optimizers(self):
+        optimizer = torch.optim.Adam(self.parameters(), lr=1e-3)
+        return optimizer
+    
+    def accuracy(self, logits, labels):
+        _, preds = torch.max(logits, 1)
+        return torch.sum(preds == labels.data).float() / len(labels)
+
+    def training_step(self, batch, batch_idx):
+            x, y = batch
+            logits = self(x)
+            loss = self.loss_fn(logits, y)
+            acc = self.accuracy(logits, y)
+            self.log('train_loss', loss, on_step=False, on_epoch=True, prog_bar=True)
+            self.log('train_acc', acc, on_step=False, on_epoch=True, prog_bar=False)
+            return {'loss': loss, 'logits': logits, 'labels': y, 'train_acc': acc}
+
+    def training_epoch_end(self, outputs):
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
+        train_acc = torch.stack([x['train_acc'] for x in outputs]).mean()
+        print(f'Training Accuracy: {train_acc:.4f}')
+
+    def test_step(self, batch, batch_idx):
+        x, y = batch
+        logits = self(x)
+        loss = self.loss_fn(logits, y)
+        acc = self.accuracy(logits, y)
+        self.log('test_loss', loss, on_step=False, on_epoch=True, prog_bar=False)
+        self.log('test_acc', acc, on_step=False, on_epoch=True, prog_bar=False)
+        return {'loss': loss, 'acc': acc}
+
+    def test_epoch_end(self, outputs):
+        avg_acc = torch.stack([x['acc'] for x in outputs]).mean()
+        print(f'Test Accuracy: {avg_acc:.4f}')
+
+
+
+class DataModule(pl.LightningDataModule):
+    def __init__(self, data_dir, batch_size=8, img_size=(640, 480), test_split=0.2, num_workers=8):
+        super(DataModule, self).__init__()
         self.data_dir = data_dir
-        self.classes = classes
         self.batch_size = batch_size
         self.img_size = img_size
+        self.test_split = test_split
         self.transform = transforms.Compose([
             transforms.Resize(self.img_size),
             transforms.ToTensor(),
-            transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
         ])
+
     def setup(self, stage=None):
         # Load the dataset using ImageFolder
         full_dataset = ImageFolder(root=self.data_dir, transform=self.transform)
         
-        # Get the index of the class
-        classes_idx = full_dataset.class_to_idx[self.classes]
+        # Get the indices of the classes "Gutteile" and "Fehler"
+        gutteile_idx = full_dataset.class_to_idx['Gutteile']
+        fehler_idx = full_dataset.class_to_idx['Fehler']
         
-        # Filter the dataset to only have images from the class
-        self.dataset = torch.utils.data.Subset(full_dataset, 
-                       [i for i, (_, label) in enumerate(full_dataset.samples) if label == classes_idx])
+        # Filter the dataset to only have images from the classes "Gutteile" and "Fehler"
+        filtered_indices = [i for i, (_, label) in enumerate(full_dataset.samples) if label in [gutteile_idx, fehler_idx]]
+        self.dataset = torch.utils.data.Subset(full_dataset, filtered_indices)
+        
+        # Split the dataset into train and test sets
+        dataset_size = len(self.dataset)
+        test_size = int(self.test_split * dataset_size)
+        train_size = dataset_size - test_size
+        self.train_dataset, self.test_dataset = random_split(self.dataset, [train_size, test_size])
 
     def train_dataloader(self):
-        return DataLoader(self.dataset, batch_size=self.batch_size, shuffle=True)
+        return DataLoader(self.train_dataset, batch_size=self.batch_size, shuffle=True)
 
-class Encoder(nn.Module):
-    def __init__(self):
-        super(Encoder, self).__init__()
-        
-        self.conv_block_1 = nn.Sequential(
-            nn.Conv2d(3, 32, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(32),
-            nn.LeakyReLU()
-        )
-        
-        self.conv_block_2 = nn.Sequential(
-            nn.Conv2d(32, 64, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(64),
-            nn.LeakyReLU()
-        )
-        
-        self.conv_block_3 = nn.Sequential(
-            nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(128),
-            nn.LeakyReLU()
-        )
-        
-        self.conv_block_4 = nn.Sequential(
-            nn.Conv2d(128, 256, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(256),
-            nn.LeakyReLU()
-        )
-        
-        self.conv_block_5 = nn.Sequential(
-            nn.Conv2d(256, 512, kernel_size=3, stride=2, padding=1),
-            nn.BatchNorm2d(512),
-            nn.LeakyReLU()
-        )
-        
-        self.flatten = nn.Flatten()
-        self.fc = nn.Linear(512 * 8 * 8, 200)
-        
-    def forward(self, x):
-        x = self.conv_block_1(x)
-        x = self.conv_block_2(x)
-        x = self.conv_block_3(x)
-        x = self.conv_block_4(x)
-        x = self.conv_block_5(x)
-        x = self.flatten(x)
-        x = self.fc(x)
-        return x
+    def test_dataloader(self):
+        return DataLoader(self.test_dataset, batch_size=self.batch_size, shuffle=False)
 
-class Decoder(nn.Module):
-    def __init__(self):
-        super(Decoder, self).__init__()
-        
-        self.fc = nn.Linear(200, 512 * 8 * 8)
-        self.reshape = lambda x: x.view(-1, 512, 8, 8)
-        
-        self.deconv_block_1 = nn.Sequential(
-            nn.ConvTranspose2d(512, 256, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(256),
-            nn.LeakyReLU()
-        )
-        
-        self.deconv_block_2 = nn.Sequential(
-            nn.ConvTranspose2d(256, 128, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(128),
-            nn.LeakyReLU()
-        )
-        
-        self.deconv_block_3 = nn.Sequential(
-            nn.ConvTranspose2d(128, 64, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(64),
-            nn.LeakyReLU()
-        )
-        
-        self.deconv_block_4 = nn.Sequential(
-            nn.ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1, output_padding=1),
-            nn.BatchNorm2d(32),
-            nn.LeakyReLU()
-        )
-        
-        self.deconv_block_5 = nn.ConvTranspose2d(32, 3, kernel_size=3, stride=2, padding=1, output_padding=1)
-        
-    def forward(self, x):
-        x = self.fc(x)
-        x = self.reshape(x)
-        x = self.deconv_block_1(x)
-        x = self.deconv_block_2(x)
-        x = self.deconv_block_3(x)
-        x = self.deconv_block_4(x)
-        x = self.deconv_block_5(x)
-        return torch.sigmoid(x)
-
-
-class AutoEncoder(pl.LightningModule):
-    def __init__(self):
-        super(AutoEncoder, self).__init__()
-        self.encoder = Encoder()
-        self.decoder = Decoder()
-
-    def forward(self, x):
-        latent = self.encoder(x)
-        return self.decoder(latent)
-    
-    def ae_loss(self, y_true, y_pred):
-        # Matching the original ae_loss calculation
-        loss = torch.mean((y_true - y_pred) ** 2, dim=[1, 2, 3])
-        batch_average_loss = torch.mean(loss)
-        return batch_average_loss
-
-    def training_step(self, batch, batch_idx):
-        x, _ = batch
-        x_hat = self(x)
-        loss = self.ae_loss(x, x_hat)
-        self.log('train_loss', loss)
-        return loss
-
-    def configure_optimizers(self):
-        return torch.optim.Adam(self.parameters(), lr=0.0005)
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
-    parser.add_argument("--classes", type=str, default='Gutteile', help='Classes used to train the model')
     parser.add_argument("--accelerator", default='cpu')
     args = parser.parse_args()
     
-    # Training
-    data_module = AEDataModule(data_dir=args.data_path, classes=args.classes)
-    model = AutoEncoder()
+    data_module = DataModule(data_dir=args.data_path)
+    model = Backbone(num_classes=2)
+    
     trainer = pl.Trainer(max_epochs=50, accelerator=args.accelerator)
     trainer.fit(model, datamodule=data_module)
+    trainer.test(model, datamodule=data_module)
+    
     torch.save(model.state_dict(), 'weights.pth')
 
 if __name__ == '__main__':

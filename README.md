@@ -11,15 +11,15 @@ images  #https://git.rwth-aachen.de/justin.pratt/ki-demonstrator/-/tree/main/ima
 └── yellow
 ```
 ## Training
-Run `train.py` with the path of the `images` folder and the classes of the images for training(default is Gutteile).
+Run `train.py` with the path of the `images` folder.
 ```
-python train.py /home/desktop/images --classes Gutteile
+python train.py --data_path /home/desktop/images
 ```
 ## Model Saving
 After training, the weights of the model will be saved as `weights.pth` under the root folder.
 
 ## Testing
-Run `test.py` with the path of the `images` folder and the classes of the images for testing(default is Fehler). The reconstruction erorr will be saved as a `.csv` file under the root folder.
+Run `test.py` with the path of the `images` folder. The test will be conducted on all the images (Gutteile+Fehler) and results will be saved as a `.csv` file under the root folder. `weights.pth` needs to be placed under the root folder. 
 ```
-python test.py --data_path /home/usr/images --classes Fehler
+python test.py --data_path /home/usr/images
 ```
