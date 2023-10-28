@@ -18,14 +18,12 @@ if torch.cuda.is_available():
 
 parser = argparse.ArgumentParser(description='Process images from given path')
 parser.add_argument('--data_path', type=str, required=True, help='Path to the image folder')
-parser.add_argument("--classes", type=str, default='Fehler', help='CLasses used to test the model')
 args = parser.parse_args()
 
 # Data loader
 transform = transforms.Compose([
-        transforms.Resize((256, 256)),
+        transforms.Resize((640, 480)),
         transforms.ToTensor(),
-        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
         ])
 
 full_dataset = ImageFolder(root=args.data_path, transform=transform)

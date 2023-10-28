@@ -6,6 +6,13 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader, random_split
 import argparse
 import torchvision.models as models
+from pytorch_lightning.callbacks import ProgressBar
+
+class CustomProgressBar(ProgressBar):
+    def init_train_tqdm(self):
+        bar = super().init_train_tqdm()
+        bar.set_description('Epoch')
+        return bar
 
 class Backbone(pl.LightningModule):
     def __init__(self, num_classes=2):
@@ -27,6 +34,18 @@ class Backbone(pl.LightningModule):
         x, y = batch
         logits = self(x)
         loss = self.loss_fn(logits, y)
+        acc = self.accuracy(logits, y)
+        self.log('train_loss', loss, on_step=True, on_epoch=True, prog_bar=True)
+        self.log('train_acc', acc, on_step=True, on_epoch=True, prog_bar=True)
+        return loss
+    
+    def test_step(self, batch, batch_idx):
+        x, y = batch
+        logits = self(x)
+        loss = self.loss_fn(logits, y)
+        acc = self.accuracy(logits, y)
+        self.log('test_loss', loss, on_epoch=True, prog_bar=True)
+        self.log('test_acc', acc, on_epoch=True, prog_bar=True)
         return loss
     
     def configure_optimizers(self):
@@ -37,42 +56,14 @@ class Backbone(pl.LightningModule):
         _, preds = torch.max(logits, 1)
         return torch.sum(preds == labels.data).float() / len(labels)
 
-    def training_step(self, batch, batch_idx):
-            x, y = batch
-            logits = self(x)
-            loss = self.loss_fn(logits, y)
-            acc = self.accuracy(logits, y)
-            self.log('train_loss', loss, on_step=False, on_epoch=True, prog_bar=True)
-            self.log('train_acc', acc, on_step=False, on_epoch=True, prog_bar=False)
-            return {'loss': loss, 'logits': logits, 'labels': y, 'train_acc': acc}
-
-    def training_epoch_end(self, outputs):
-        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
-        train_acc = torch.stack([x['train_acc'] for x in outputs]).mean()
-        print(f'Training Accuracy: {train_acc:.4f}')
-
-    def test_step(self, batch, batch_idx):
-        x, y = batch
-        logits = self(x)
-        loss = self.loss_fn(logits, y)
-        acc = self.accuracy(logits, y)
-        self.log('test_loss', loss, on_step=False, on_epoch=True, prog_bar=False)
-        self.log('test_acc', acc, on_step=False, on_epoch=True, prog_bar=False)
-        return {'loss': loss, 'acc': acc}
-
-    def test_epoch_end(self, outputs):
-        avg_acc = torch.stack([x['acc'] for x in outputs]).mean()
-        print(f'Test Accuracy: {avg_acc:.4f}')
-
-
-
 class DataModule(pl.LightningDataModule):
-    def __init__(self, data_dir, batch_size=8, img_size=(640, 480), test_split=0.2, num_workers=8):
+    def __init__(self, data_dir, batch_size=8, img_size=(640, 480), test_split=0.2, num_workers=15):
         super(DataModule, self).__init__()
         self.data_dir = data_dir
         self.batch_size = batch_size
         self.img_size = img_size
         self.test_split = test_split
+        self.num_workers = num_workers
         self.transform = transforms.Compose([
             transforms.Resize(self.img_size),
             transforms.ToTensor(),
@@ -102,7 +93,6 @@ class DataModule(pl.LightningDataModule):
     def test_dataloader(self):
         return DataLoader(self.test_dataset, batch_size=self.batch_size, shuffle=False)
 
-
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
@@ -112,10 +102,12 @@ def main():
     data_module = DataModule(data_dir=args.data_path)
     model = Backbone(num_classes=2)
     
-    trainer = pl.Trainer(max_epochs=50, accelerator=args.accelerator)
+    trainer = pl.Trainer(
+        max_epochs=50,
+        accelerator=args.accelerator,
+    )
     trainer.fit(model, datamodule=data_module)
     trainer.test(model, datamodule=data_module)
-    
     torch.save(model.state_dict(), 'weights.pth')
 
 if __name__ == '__main__':
