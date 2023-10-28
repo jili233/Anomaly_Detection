@@ -11,7 +11,7 @@ images  #https://git.rwth-aachen.de/justin.pratt/ki-demonstrator/-/tree/main/ima
 └── yellow
 ```
 ## Current Training Results
-![Current Training Results](Screenshot from 2023-10-28 15-06-55.png)
+<img src="Screenshot from 2023-10-28 15-06-55.png" width="" alt=""/>
 
 ## Training
 Run `train.py` with the path of the `images` folder.
