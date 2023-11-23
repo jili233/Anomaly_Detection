@@ -18,6 +18,7 @@ class Backbone(pl.LightningModule):
     def __init__(self, num_classes=2):
         super(Backbone, self).__init__()
 
+        # Backbone
         self.features = models.resnet18(pretrained=True)
         
         for param in self.features.parameters():
@@ -49,6 +50,7 @@ class Backbone(pl.LightningModule):
         return loss
     
     def configure_optimizers(self):
+        # Learning rate
         optimizer = torch.optim.Adam(self.parameters(), lr=1e-3)
         return optimizer
     
@@ -57,6 +59,7 @@ class Backbone(pl.LightningModule):
         return torch.sum(preds == labels.data).float() / len(labels)
 
 class DataModule(pl.LightningDataModule):
+    # Batch size, number of workers.
     def __init__(self, data_dir, batch_size=8, img_size=(640, 480), test_split=0.2, num_workers=15):
         super(DataModule, self).__init__()
         self.data_dir = data_dir
@@ -101,8 +104,10 @@ def main():
     
     data_module = DataModule(data_dir=args.data_path)
     model = Backbone(num_classes=2)
+
     
     trainer = pl.Trainer(
+        # Max epochs.
         max_epochs=50,
         accelerator=args.accelerator,
     )
