@@ -26,6 +26,7 @@ class Backbone(pl.LightningModule):
         
         in_features = self.features.fc.in_features
         self.features.fc = nn.Linear(in_features, num_classes)
+        # Loss function.
         self.loss_fn = nn.CrossEntropyLoss()
 
     def forward(self, x):
@@ -59,7 +60,7 @@ class Backbone(pl.LightningModule):
         return torch.sum(preds == labels.data).float() / len(labels)
 
 class DataModule(pl.LightningDataModule):
-    # Batch size, number of workers.
+    # Batch size, number of workers, test_split is the ratio of training set and testing set.
     def __init__(self, data_dir, batch_size=8, img_size=(640, 480), test_split=0.2, num_workers=15):
         super(DataModule, self).__init__()
         self.data_dir = data_dir
@@ -99,6 +100,7 @@ class DataModule(pl.LightningDataModule):
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
+    # Could try gpu.
     parser.add_argument("--accelerator", default='cpu')
     args = parser.parse_args()
     
