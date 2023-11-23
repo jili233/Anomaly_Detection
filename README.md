@@ -1,4 +1,7 @@
 # Anomaly Detection
+
+## Installation
+`pip install lightning torch torchvision`
 ## Dataset Preparation
 Download the `images` folder from Gitlab, put it under the root folder.  
 The structure of `images` folder should look like below:
