@@ -15,7 +15,7 @@ class CustomProgressBar(ProgressBar):
         return bar
 
 class Backbone(pl.LightningModule):
-    def __init__(self, backbone_name='resnet18', num_classes=2):
+    def __init__(self, backbone_name, num_classes, class_weights, lr):
         super(Backbone, self).__init__()
 
         # parser for choosing the backbone added
@@ -29,9 +29,11 @@ class Backbone(pl.LightningModule):
         
         in_features = self.features.fc.in_features
         self.features.fc = nn.Linear(in_features, num_classes)
-        
+
         # adopted loss function CrossEntropyLoss
-        self.loss_fn = nn.CrossEntropyLoss()
+        self.class_weights = torch.tensor(class_weights, dtype=torch.float32)
+        self.loss_fn = nn.CrossEntropyLoss(weight=self.class_weights)
+        self.lr = lr
 
     def forward(self, x):
         return self.features(x)
@@ -56,7 +58,7 @@ class Backbone(pl.LightningModule):
     
     def configure_optimizers(self):
         # Learning rate
-        optimizer = torch.optim.Adam(self.parameters(), lr=1e-3)
+        optimizer = torch.optim.Adam(self.parameters(), lr=self.lr)
         return optimizer
     
     def accuracy(self, logits, labels):
@@ -95,6 +97,10 @@ class DataModule(pl.LightningDataModule):
         train_size = dataset_size - test_size
         self.train_dataset, self.test_dataset = random_split(self.dataset, [train_size, test_size])
 
+        # Print the class names and their indices, in order to know which index corresponds to which class when we set the class weights.
+        # {'Fehler': 0, 'Gutteile': 1}
+        print(full_dataset.class_to_idx)
+
     def train_dataloader(self):
         return DataLoader(self.train_dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
@@ -105,11 +111,14 @@ def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
     parser.add_argument("--accelerator", default='cpu')
-    parser.add_argument("--batch_size", type=int, default=8, help='Batch size for training/testing')
+    parser.add_argument("--max_epochs", type=int, default=50, help='Total epochs for training')
+    parser.add_argument("--batch_size", type=int, default=8, help='Batch size for training')
     parser.add_argument("--test_split", type=float, default=0.2, help='Test split fraction')
     parser.add_argument("--num_workers", type=int, default=15, help='Number of workers for DataLoader')
     parser.add_argument("--img_size", type=int, nargs=2, default=[640, 480], help='Image size as tuple (width, height)')
     parser.add_argument("--backbone", type=str, default='resnet18', help='Backbone model name')
+    parser.add_argument("--class_weights", nargs=2, type=float, default=[5.0, 1.0], help='Weights for classes')
+    parser.add_argument("--lr", type=float, default=1e-3, help='Learning rate')
     args = parser.parse_args()
     
     data_module = DataModule(data_dir=args.data_path, 
@@ -117,12 +126,12 @@ def main():
                              img_size=tuple(args.img_size), 
                              test_split=args.test_split, 
                              num_workers=args.num_workers)
-    model = Backbone(backbone_name=args.backbone, num_classes=2)
+    data_module.setup()
 
-    
+    model = Backbone(backbone_name=args.backbone, num_classes=2, class_weights=args.class_weights, lr=args.lr)    
     trainer = pl.Trainer(
         # Max epochs.
-        max_epochs=50,
+        max_epochs=args.max_epochs,
         accelerator=args.accelerator,
     )
     trainer.fit(model, datamodule=data_module)

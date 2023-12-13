@@ -1,0 +1,1306 @@
+image_path,predicted_probability,predicted_class,actual_class,correct
+opencv_frame_0 - Kopie.png,0.9889714121818542,Fehler,Fehler,True
+opencv_frame_0.png,0.9889714121818542,Fehler,Fehler,True
+opencv_frame_1 - Kopie.png,0.9964256882667542,Fehler,Fehler,True
+opencv_frame_1.png,0.9964256882667542,Fehler,Fehler,True
+opencv_frame_10 - Kopie.png,0.9987849593162537,Fehler,Fehler,True
+opencv_frame_10.png,0.9987849593162537,Fehler,Fehler,True
+opencv_frame_100 - Kopie (2).png,0.9990020394325256,Fehler,Fehler,True
+opencv_frame_100 - Kopie - Kopie.png,0.9990020394325256,Fehler,Fehler,True
+opencv_frame_100 - Kopie.png,0.9990020394325256,Fehler,Fehler,True
+opencv_frame_100.png,0.9990020394325256,Fehler,Fehler,True
+opencv_frame_101.png,0.9965630173683167,Fehler,Fehler,True
+opencv_frame_102.png,0.9731251001358032,Fehler,Fehler,True
+opencv_frame_103.png,0.9605628848075867,Fehler,Fehler,True
+opencv_frame_104 - Kopie (2).png,0.9983460903167725,Fehler,Fehler,True
+opencv_frame_104 - Kopie - Kopie.png,0.9983460903167725,Fehler,Fehler,True
+opencv_frame_104 - Kopie.png,0.9983460903167725,Fehler,Fehler,True
+opencv_frame_104.png,0.9983460903167725,Fehler,Fehler,True
+opencv_frame_105 - Kopie (2).png,0.9997759461402893,Fehler,Fehler,True
+opencv_frame_105 - Kopie - Kopie.png,0.9997759461402893,Fehler,Fehler,True
+opencv_frame_105 - Kopie.png,0.9997759461402893,Fehler,Fehler,True
+opencv_frame_105.png,0.9997759461402893,Fehler,Fehler,True
+opencv_frame_106 - Kopie (2).png,0.9959676265716553,Fehler,Fehler,True
+opencv_frame_106 - Kopie - Kopie.png,0.9959676265716553,Fehler,Fehler,True
+opencv_frame_106 - Kopie.png,0.9959676265716553,Fehler,Fehler,True
+opencv_frame_106.png,0.9959676265716553,Fehler,Fehler,True
+opencv_frame_107 - Kopie (2).png,0.9993926286697388,Fehler,Fehler,True
+opencv_frame_107 - Kopie - Kopie.png,0.9993926286697388,Fehler,Fehler,True
+opencv_frame_107 - Kopie.png,0.9993926286697388,Fehler,Fehler,True
+opencv_frame_107.png,0.9993926286697388,Fehler,Fehler,True
+opencv_frame_108 - Kopie (2).png,0.9906629323959351,Fehler,Fehler,True
+opencv_frame_108 - Kopie - Kopie.png,0.9906629323959351,Fehler,Fehler,True
+opencv_frame_108 - Kopie.png,0.9906629323959351,Fehler,Fehler,True
+opencv_frame_108.png,0.9906629323959351,Fehler,Fehler,True
+opencv_frame_109 - Kopie.png,0.9915804266929626,Fehler,Fehler,True
+opencv_frame_109.png,0.9915804266929626,Fehler,Fehler,True
+opencv_frame_11 - Kopie.png,0.9438185095787048,Fehler,Fehler,True
+opencv_frame_11.png,0.9438185095787048,Fehler,Fehler,True
+opencv_frame_110.png,0.9825351238250732,Fehler,Fehler,True
+opencv_frame_111.png,0.9962348341941833,Fehler,Fehler,True
+opencv_frame_112.png,0.9990034699440002,Fehler,Fehler,True
+opencv_frame_113.png,0.9996764659881592,Fehler,Fehler,True
+opencv_frame_114 - Kopie.png,0.9993026256561279,Fehler,Fehler,True
+opencv_frame_114.png,0.9993026256561279,Fehler,Fehler,True
+opencv_frame_115 - Kopie.png,0.9755527973175049,Fehler,Fehler,True
+opencv_frame_115.png,0.9755527973175049,Fehler,Fehler,True
+opencv_frame_116 - Kopie.png,0.999122679233551,Fehler,Fehler,True
+opencv_frame_116.png,0.999122679233551,Fehler,Fehler,True
+opencv_frame_117.png,0.9996602535247803,Fehler,Fehler,True
+opencv_frame_118.png,0.9949912428855896,Fehler,Fehler,True
+opencv_frame_119.png,0.998956561088562,Fehler,Fehler,True
+opencv_frame_12 - Kopie.png,0.9932805895805359,Fehler,Fehler,True
+opencv_frame_12.png,0.9932805895805359,Fehler,Fehler,True
+opencv_frame_120.png,0.998381495475769,Fehler,Fehler,True
+opencv_frame_121.png,0.9829365015029907,Fehler,Fehler,True
+opencv_frame_122.png,0.994360625743866,Fehler,Fehler,True
+opencv_frame_123.png,0.9979491829872131,Fehler,Fehler,True
+opencv_frame_13 - Kopie.png,0.9991961121559143,Fehler,Fehler,True
+opencv_frame_13.png,0.9991961121559143,Fehler,Fehler,True
+opencv_frame_14 - Kopie.png,0.9961668848991394,Fehler,Fehler,True
+opencv_frame_14.png,0.9961668848991394,Fehler,Fehler,True
+opencv_frame_15 - Kopie.png,0.9995680451393127,Fehler,Fehler,True
+opencv_frame_15.png,0.9995680451393127,Fehler,Fehler,True
+opencv_frame_16 - Kopie - Kopie.png,0.9990414977073669,Fehler,Fehler,True
+opencv_frame_16 - Kopie.png,0.9990414977073669,Fehler,Fehler,True
+opencv_frame_16.png,0.9990414977073669,Fehler,Fehler,True
+opencv_frame_17 - Kopie.png,0.9918593764305115,Fehler,Fehler,True
+opencv_frame_17.png,0.9918593764305115,Fehler,Fehler,True
+opencv_frame_18 - Kopie.png,0.9938045740127563,Fehler,Fehler,True
+opencv_frame_18.png,0.9938045740127563,Fehler,Fehler,True
+opencv_frame_19 - Kopie.png,0.969620406627655,Fehler,Fehler,True
+opencv_frame_19.png,0.969620406627655,Fehler,Fehler,True
+opencv_frame_2 - Kopie - Kopie.png,0.9961651563644409,Fehler,Fehler,True
+opencv_frame_2 - Kopie.png,0.9961651563644409,Fehler,Fehler,True
+opencv_frame_2.png,0.9961651563644409,Fehler,Fehler,True
+opencv_frame_20 - Kopie.png,0.9832366108894348,Fehler,Fehler,True
+opencv_frame_20.png,0.9832366108894348,Fehler,Fehler,True
+opencv_frame_21 - Kopie.png,0.9951360821723938,Fehler,Fehler,True
+opencv_frame_21.png,0.9951360821723938,Fehler,Fehler,True
+opencv_frame_22 - Kopie - Kopie.png,0.9889976382255554,Fehler,Fehler,True
+opencv_frame_22 - Kopie.png,0.9889976382255554,Fehler,Fehler,True
+opencv_frame_22.png,0.9889976382255554,Fehler,Fehler,True
+opencv_frame_23 - Kopie - Kopie.png,0.9706138968467712,Fehler,Fehler,True
+opencv_frame_23 - Kopie.png,0.9706138968467712,Fehler,Fehler,True
+opencv_frame_23.png,0.9706138968467712,Fehler,Fehler,True
+opencv_frame_24 - Kopie - Kopie.png,0.9896246790885925,Fehler,Fehler,True
+opencv_frame_24 - Kopie.png,0.9896246790885925,Fehler,Fehler,True
+opencv_frame_24.png,0.9896246790885925,Fehler,Fehler,True
+opencv_frame_25 - Kopie.png,0.9575697779655457,Fehler,Fehler,True
+opencv_frame_25.png,0.9575697779655457,Fehler,Fehler,True
+opencv_frame_26 - Kopie.png,0.9249011278152466,Fehler,Fehler,True
+opencv_frame_26.png,0.9249011278152466,Fehler,Fehler,True
+opencv_frame_27 - Kopie.png,0.938137948513031,Fehler,Fehler,True
+opencv_frame_27.png,0.938137948513031,Fehler,Fehler,True
+opencv_frame_28 - Kopie.png,0.9288907647132874,Fehler,Fehler,True
+opencv_frame_28.png,0.9288907647132874,Fehler,Fehler,True
+opencv_frame_29 - Kopie.png,0.9763587713241577,Fehler,Fehler,True
+opencv_frame_29.png,0.9763587713241577,Fehler,Fehler,True
+opencv_frame_3 - Kopie - Kopie.png,0.9978664517402649,Fehler,Fehler,True
+opencv_frame_3 - Kopie.png,0.9978664517402649,Fehler,Fehler,True
+opencv_frame_3.png,0.9978664517402649,Fehler,Fehler,True
+opencv_frame_30 - Kopie.png,0.9913581609725952,Fehler,Fehler,True
+opencv_frame_30.png,0.9913581609725952,Fehler,Fehler,True
+opencv_frame_31 - Kopie.png,0.9982874989509583,Fehler,Fehler,True
+opencv_frame_31.png,0.9982874989509583,Fehler,Fehler,True
+opencv_frame_32 - Kopie.png,0.9999604225158691,Fehler,Fehler,True
+opencv_frame_32.png,0.9999604225158691,Fehler,Fehler,True
+opencv_frame_33 - Kopie.png,0.9997418522834778,Fehler,Fehler,True
+opencv_frame_33.png,0.9997418522834778,Fehler,Fehler,True
+opencv_frame_34 - Kopie - Kopie.png,0.9881352186203003,Fehler,Fehler,True
+opencv_frame_34 - Kopie.png,0.9881352186203003,Fehler,Fehler,True
+opencv_frame_34.png,0.9881352186203003,Fehler,Fehler,True
+opencv_frame_35 - Kopie - Kopie.png,0.9949197173118591,Fehler,Fehler,True
+opencv_frame_35 - Kopie.png,0.9949197173118591,Fehler,Fehler,True
+opencv_frame_35.png,0.9949197173118591,Fehler,Fehler,True
+opencv_frame_36 - Kopie.png,0.9959940910339355,Fehler,Fehler,True
+opencv_frame_36.png,0.9959940910339355,Fehler,Fehler,True
+opencv_frame_37 - Kopie.png,0.996613085269928,Fehler,Fehler,True
+opencv_frame_37.png,0.996613085269928,Fehler,Fehler,True
+opencv_frame_38 - Kopie.png,0.9879623055458069,Fehler,Fehler,True
+opencv_frame_38.png,0.9879623055458069,Fehler,Fehler,True
+opencv_frame_39 - Kopie.png,0.9369539022445679,Fehler,Fehler,True
+opencv_frame_39.png,0.9369539022445679,Fehler,Fehler,True
+opencv_frame_4 - Kopie - Kopie.png,0.9994730353355408,Fehler,Fehler,True
+opencv_frame_4 - Kopie.png,0.9994730353355408,Fehler,Fehler,True
+opencv_frame_4.png,0.9994730353355408,Fehler,Fehler,True
+opencv_frame_40 - Kopie.png,0.9629923701286316,Fehler,Fehler,True
+opencv_frame_40.png,0.9629923701286316,Fehler,Fehler,True
+opencv_frame_41 - Kopie.png,0.9912686347961426,Fehler,Fehler,True
+opencv_frame_41.png,0.9912686347961426,Fehler,Fehler,True
+opencv_frame_42 - Kopie - Kopie.png,0.993347704410553,Fehler,Fehler,True
+opencv_frame_42 - Kopie.png,0.993347704410553,Fehler,Fehler,True
+opencv_frame_42.png,0.993347704410553,Fehler,Fehler,True
+opencv_frame_43 - Kopie - Kopie.png,0.9962589740753174,Fehler,Fehler,True
+opencv_frame_43 - Kopie.png,0.9962589740753174,Fehler,Fehler,True
+opencv_frame_43.png,0.9962589740753174,Fehler,Fehler,True
+opencv_frame_44 - Kopie.png,0.9957367181777954,Fehler,Fehler,True
+opencv_frame_44.png,0.9957367181777954,Fehler,Fehler,True
+opencv_frame_45 - Kopie.png,0.9987693428993225,Fehler,Fehler,True
+opencv_frame_45.png,0.9987693428993225,Fehler,Fehler,True
+opencv_frame_46 - Kopie - Kopie.png,0.9829739332199097,Fehler,Fehler,True
+opencv_frame_46 - Kopie.png,0.9829739332199097,Fehler,Fehler,True
+opencv_frame_46.png,0.9829739332199097,Fehler,Fehler,True
+opencv_frame_47 - Kopie - Kopie.png,0.9969151020050049,Fehler,Fehler,True
+opencv_frame_47 - Kopie.png,0.9969151020050049,Fehler,Fehler,True
+opencv_frame_47.png,0.9969151020050049,Fehler,Fehler,True
+opencv_frame_48 - Kopie - Kopie.png,0.9932258725166321,Fehler,Fehler,True
+opencv_frame_48 - Kopie.png,0.9932258725166321,Fehler,Fehler,True
+opencv_frame_48.png,0.9932258725166321,Fehler,Fehler,True
+opencv_frame_49 - Kopie.png,0.9913734793663025,Fehler,Fehler,True
+opencv_frame_49.png,0.9913734793663025,Fehler,Fehler,True
+opencv_frame_5 - Kopie.png,0.998563826084137,Fehler,Fehler,True
+opencv_frame_5.png,0.998563826084137,Fehler,Fehler,True
+opencv_frame_50 - Kopie.png,0.9733614325523376,Fehler,Fehler,True
+opencv_frame_50.png,0.9733614325523376,Fehler,Fehler,True
+opencv_frame_51 - Kopie - Kopie.png,0.9884139895439148,Fehler,Fehler,True
+opencv_frame_51 - Kopie.png,0.9884139895439148,Fehler,Fehler,True
+opencv_frame_51.png,0.9884139895439148,Fehler,Fehler,True
+opencv_frame_52 - Kopie - Kopie.png,0.9922425746917725,Fehler,Fehler,True
+opencv_frame_52 - Kopie.png,0.9922425746917725,Fehler,Fehler,True
+opencv_frame_52.png,0.9922425746917725,Fehler,Fehler,True
+opencv_frame_53 - Kopie.png,0.9892908930778503,Fehler,Fehler,True
+opencv_frame_53.png,0.9892908930778503,Fehler,Fehler,True
+opencv_frame_54 - Kopie.png,0.9851633906364441,Fehler,Fehler,True
+opencv_frame_54.png,0.9851633906364441,Fehler,Fehler,True
+opencv_frame_55 - Kopie.png,0.9917819499969482,Fehler,Fehler,True
+opencv_frame_55.png,0.9917819499969482,Fehler,Fehler,True
+opencv_frame_56 - Kopie.png,0.9554966688156128,Fehler,Fehler,True
+opencv_frame_56.png,0.9554966688156128,Fehler,Fehler,True
+opencv_frame_57 - Kopie.png,0.9993890523910522,Fehler,Fehler,True
+opencv_frame_57.png,0.9993890523910522,Fehler,Fehler,True
+opencv_frame_58 - Kopie.png,0.9994623064994812,Fehler,Fehler,True
+opencv_frame_58.png,0.9994623064994812,Fehler,Fehler,True
+opencv_frame_59 - Kopie.png,0.9981030225753784,Fehler,Fehler,True
+opencv_frame_59.png,0.9981030225753784,Fehler,Fehler,True
+opencv_frame_6 - Kopie.png,0.9932265877723694,Fehler,Fehler,True
+opencv_frame_6.png,0.9932265877723694,Fehler,Fehler,True
+opencv_frame_60.png,0.9842770099639893,Fehler,Fehler,True
+opencv_frame_61 - Kopie - Kopie.png,0.9923673272132874,Fehler,Fehler,True
+opencv_frame_61 - Kopie.png,0.9923673272132874,Fehler,Fehler,True
+opencv_frame_61.png,0.9923673272132874,Fehler,Fehler,True
+opencv_frame_62 - Kopie - Kopie.png,0.9892401695251465,Fehler,Fehler,True
+opencv_frame_62 - Kopie.png,0.9892401695251465,Fehler,Fehler,True
+opencv_frame_62.png,0.9892401695251465,Fehler,Fehler,True
+opencv_frame_63 - Kopie.png,0.995315432548523,Fehler,Fehler,True
+opencv_frame_63.png,0.995315432548523,Fehler,Fehler,True
+opencv_frame_64 - Kopie.png,0.9983083009719849,Fehler,Fehler,True
+opencv_frame_64.png,0.9983083009719849,Fehler,Fehler,True
+opencv_frame_65 - Kopie.png,0.9983187913894653,Fehler,Fehler,True
+opencv_frame_65.png,0.9983187913894653,Fehler,Fehler,True
+opencv_frame_66 - Kopie.png,0.9921461939811707,Fehler,Fehler,True
+opencv_frame_66.png,0.9921461939811707,Fehler,Fehler,True
+opencv_frame_67.png,0.9486488699913025,Fehler,Fehler,True
+opencv_frame_68.png,0.9942533373832703,Fehler,Fehler,True
+opencv_frame_69 - Kopie - Kopie.png,0.9969954490661621,Fehler,Fehler,True
+opencv_frame_69 - Kopie.png,0.9969954490661621,Fehler,Fehler,True
+opencv_frame_69.png,0.9969954490661621,Fehler,Fehler,True
+opencv_frame_7 - Kopie.png,0.9982524514198303,Fehler,Fehler,True
+opencv_frame_7.png,0.9982524514198303,Fehler,Fehler,True
+opencv_frame_70 - Kopie - Kopie.png,0.999473512172699,Fehler,Fehler,True
+opencv_frame_70 - Kopie.png,0.999473512172699,Fehler,Fehler,True
+opencv_frame_70.png,0.999473512172699,Fehler,Fehler,True
+opencv_frame_71.png,0.9497224688529968,Fehler,Fehler,True
+opencv_frame_72.png,0.8087937235832214,Fehler,Fehler,True
+opencv_frame_73.png,0.9813434481620789,Fehler,Fehler,True
+opencv_frame_74.png,0.9645522832870483,Fehler,Fehler,True
+opencv_frame_75.png,0.8230207562446594,Fehler,Fehler,True
+opencv_frame_76.png,0.8407551050186157,Fehler,Fehler,True
+opencv_frame_77.png,0.9947265982627869,Fehler,Fehler,True
+opencv_frame_78.png,0.9913871884346008,Fehler,Fehler,True
+opencv_frame_79.png,0.9590069055557251,Fehler,Fehler,True
+opencv_frame_8 - Kopie - Kopie.png,0.9989153146743774,Fehler,Fehler,True
+opencv_frame_8 - Kopie.png,0.9989153146743774,Fehler,Fehler,True
+opencv_frame_8.png,0.9989153146743774,Fehler,Fehler,True
+opencv_frame_80.png,0.8051968216896057,Gutteile,Fehler,False
+opencv_frame_81.png,0.991276741027832,Fehler,Fehler,True
+opencv_frame_82.png,0.5952271819114685,Fehler,Fehler,True
+opencv_frame_83.png,0.9470288157463074,Fehler,Fehler,True
+opencv_frame_84.png,0.974775493144989,Fehler,Fehler,True
+opencv_frame_85 - Kopie - Kopie.png,0.9910376071929932,Fehler,Fehler,True
+opencv_frame_85 - Kopie.png,0.9910376071929932,Fehler,Fehler,True
+opencv_frame_85.png,0.9910376071929932,Fehler,Fehler,True
+opencv_frame_86 - Kopie - Kopie.png,0.9884704351425171,Fehler,Fehler,True
+opencv_frame_86 - Kopie.png,0.9884704351425171,Fehler,Fehler,True
+opencv_frame_86.png,0.9884704351425171,Fehler,Fehler,True
+opencv_frame_87.png,0.9969546794891357,Fehler,Fehler,True
+opencv_frame_88.png,0.5043905973434448,Fehler,Fehler,True
+opencv_frame_89 - Kopie - Kopie.png,0.9986138343811035,Fehler,Fehler,True
+opencv_frame_89 - Kopie.png,0.9986138343811035,Fehler,Fehler,True
+opencv_frame_89.png,0.9986138343811035,Fehler,Fehler,True
+opencv_frame_9 - Kopie.png,0.9991992115974426,Fehler,Fehler,True
+opencv_frame_9.png,0.9991992115974426,Fehler,Fehler,True
+opencv_frame_90 - Kopie - Kopie.png,0.9881231188774109,Fehler,Fehler,True
+opencv_frame_90 - Kopie.png,0.9881231188774109,Fehler,Fehler,True
+opencv_frame_90.png,0.9881231188774109,Fehler,Fehler,True
+opencv_frame_91 - Kopie - Kopie.png,0.9987899661064148,Fehler,Fehler,True
+opencv_frame_91 - Kopie.png,0.9987899661064148,Fehler,Fehler,True
+opencv_frame_91.png,0.9987899661064148,Fehler,Fehler,True
+opencv_frame_92 - Kopie - Kopie.png,0.9984970092773438,Fehler,Fehler,True
+opencv_frame_92 - Kopie.png,0.9984970092773438,Fehler,Fehler,True
+opencv_frame_92.png,0.9984970092773438,Fehler,Fehler,True
+opencv_frame_93.png,0.9919439554214478,Fehler,Fehler,True
+opencv_frame_94.png,0.9973063468933105,Fehler,Fehler,True
+opencv_frame_95 - Kopie (2).png,0.996264636516571,Fehler,Fehler,True
+opencv_frame_95 - Kopie - Kopie.png,0.996264636516571,Fehler,Fehler,True
+opencv_frame_95 - Kopie.png,0.996264636516571,Fehler,Fehler,True
+opencv_frame_95.png,0.996264636516571,Fehler,Fehler,True
+opencv_frame_96 - Kopie - Kopie.png,0.9974147081375122,Fehler,Fehler,True
+opencv_frame_96 - Kopie.png,0.9974147081375122,Fehler,Fehler,True
+opencv_frame_96.png,0.9974147081375122,Fehler,Fehler,True
+opencv_frame_97.png,0.9932034015655518,Fehler,Fehler,True
+opencv_frame_98.png,0.901927649974823,Fehler,Fehler,True
+opencv_frame_99 - Kopie (2).png,0.999686598777771,Fehler,Fehler,True
+opencv_frame_99 - Kopie - Kopie.png,0.999686598777771,Fehler,Fehler,True
+opencv_frame_99 - Kopie.png,0.999686598777771,Fehler,Fehler,True
+opencv_frame_99.png,0.999686598777771,Fehler,Fehler,True
+opencv_frame_0 - Kopie (2).png,0.5643484592437744,Fehler,Gutteile,False
+opencv_frame_0 - Kopie.png,0.5643484592437744,Fehler,Gutteile,False
+opencv_frame_0.png,0.5643484592437744,Fehler,Gutteile,False
+opencv_frame_1 - Kopie (2).png,0.7626577019691467,Gutteile,Gutteile,True
+opencv_frame_1 - Kopie.png,0.7626577019691467,Gutteile,Gutteile,True
+opencv_frame_1.png,0.7626577019691467,Gutteile,Gutteile,True
+opencv_frame_10 - Kopie (2).png,0.6203784942626953,Fehler,Gutteile,False
+opencv_frame_10 - Kopie.png,0.6203784942626953,Fehler,Gutteile,False
+opencv_frame_10.png,0.6203784942626953,Fehler,Gutteile,False
+opencv_frame_100 - Kopie (2).png,0.9380998611450195,Gutteile,Gutteile,True
+opencv_frame_100 - Kopie.png,0.9380998611450195,Gutteile,Gutteile,True
+opencv_frame_100.png,0.9380998611450195,Gutteile,Gutteile,True
+opencv_frame_101 - Kopie (2).png,0.771548867225647,Gutteile,Gutteile,True
+opencv_frame_101 - Kopie.png,0.771548867225647,Gutteile,Gutteile,True
+opencv_frame_101.png,0.771548867225647,Gutteile,Gutteile,True
+opencv_frame_102 - Kopie (2).png,0.9932234287261963,Gutteile,Gutteile,True
+opencv_frame_102 - Kopie.png,0.9932234287261963,Gutteile,Gutteile,True
+opencv_frame_102.png,0.9932234287261963,Gutteile,Gutteile,True
+opencv_frame_103 - Kopie (2).png,0.9706440567970276,Gutteile,Gutteile,True
+opencv_frame_103 - Kopie.png,0.9706440567970276,Gutteile,Gutteile,True
+opencv_frame_103.png,0.9706440567970276,Gutteile,Gutteile,True
+opencv_frame_104 - Kopie (2).png,0.972582221031189,Gutteile,Gutteile,True
+opencv_frame_104 - Kopie.png,0.972582221031189,Gutteile,Gutteile,True
+opencv_frame_104.png,0.972582221031189,Gutteile,Gutteile,True
+opencv_frame_105 - Kopie (2).png,0.9991829991340637,Gutteile,Gutteile,True
+opencv_frame_105 - Kopie.png,0.9991829991340637,Gutteile,Gutteile,True
+opencv_frame_105.png,0.9991829991340637,Gutteile,Gutteile,True
+opencv_frame_106 - Kopie (2).png,0.9988473653793335,Gutteile,Gutteile,True
+opencv_frame_106 - Kopie.png,0.9988473653793335,Gutteile,Gutteile,True
+opencv_frame_106.png,0.9988473653793335,Gutteile,Gutteile,True
+opencv_frame_107 - Kopie (2).png,0.9357722997665405,Gutteile,Gutteile,True
+opencv_frame_107 - Kopie.png,0.9357722997665405,Gutteile,Gutteile,True
+opencv_frame_107.png,0.9357722997665405,Gutteile,Gutteile,True
+opencv_frame_108 - Kopie (2).png,0.9883745908737183,Gutteile,Gutteile,True
+opencv_frame_108 - Kopie.png,0.9883745908737183,Gutteile,Gutteile,True
+opencv_frame_108.png,0.9883745908737183,Gutteile,Gutteile,True
+opencv_frame_109 - Kopie (2).png,0.9995181560516357,Gutteile,Gutteile,True
+opencv_frame_109 - Kopie.png,0.9995181560516357,Gutteile,Gutteile,True
+opencv_frame_109.png,0.9995181560516357,Gutteile,Gutteile,True
+opencv_frame_11 - Kopie (2).png,0.7542235255241394,Gutteile,Gutteile,True
+opencv_frame_11 - Kopie.png,0.7542235255241394,Gutteile,Gutteile,True
+opencv_frame_11.png,0.7542235255241394,Gutteile,Gutteile,True
+opencv_frame_110 - Kopie (2).png,0.9983264803886414,Gutteile,Gutteile,True
+opencv_frame_110 - Kopie.png,0.9983264803886414,Gutteile,Gutteile,True
+opencv_frame_110.png,0.9983264803886414,Gutteile,Gutteile,True
+opencv_frame_111 - Kopie (2).png,0.9718160033226013,Gutteile,Gutteile,True
+opencv_frame_111 - Kopie.png,0.9718160033226013,Gutteile,Gutteile,True
+opencv_frame_111.png,0.9718160033226013,Gutteile,Gutteile,True
+opencv_frame_112 - Kopie (2).png,0.9948859810829163,Gutteile,Gutteile,True
+opencv_frame_112 - Kopie.png,0.9948859810829163,Gutteile,Gutteile,True
+opencv_frame_112.png,0.9948859810829163,Gutteile,Gutteile,True
+opencv_frame_113 - Kopie (2).png,0.7113966345787048,Gutteile,Gutteile,True
+opencv_frame_113 - Kopie.png,0.7113966345787048,Gutteile,Gutteile,True
+opencv_frame_113.png,0.7113966345787048,Gutteile,Gutteile,True
+opencv_frame_114 - Kopie (2).png,0.979407787322998,Gutteile,Gutteile,True
+opencv_frame_114 - Kopie.png,0.979407787322998,Gutteile,Gutteile,True
+opencv_frame_114.png,0.979407787322998,Gutteile,Gutteile,True
+opencv_frame_115 - Kopie (2).png,0.9771130084991455,Gutteile,Gutteile,True
+opencv_frame_115 - Kopie.png,0.9771130084991455,Gutteile,Gutteile,True
+opencv_frame_115.png,0.9771130084991455,Gutteile,Gutteile,True
+opencv_frame_116 - Kopie (2).png,0.9328026175498962,Gutteile,Gutteile,True
+opencv_frame_116 - Kopie.png,0.9328026175498962,Gutteile,Gutteile,True
+opencv_frame_116.png,0.9328026175498962,Gutteile,Gutteile,True
+opencv_frame_117 - Kopie (2).png,0.9888297915458679,Gutteile,Gutteile,True
+opencv_frame_117 - Kopie.png,0.9888297915458679,Gutteile,Gutteile,True
+opencv_frame_117.png,0.9888297915458679,Gutteile,Gutteile,True
+opencv_frame_118 - Kopie (2).png,0.9301102161407471,Gutteile,Gutteile,True
+opencv_frame_118 - Kopie.png,0.9301102161407471,Gutteile,Gutteile,True
+opencv_frame_118.png,0.9301102161407471,Gutteile,Gutteile,True
+opencv_frame_119 - Kopie (2).png,0.9968791007995605,Gutteile,Gutteile,True
+opencv_frame_119 - Kopie.png,0.9968791007995605,Gutteile,Gutteile,True
+opencv_frame_119.png,0.9968791007995605,Gutteile,Gutteile,True
+opencv_frame_12 - Kopie (2).png,0.9979612827301025,Gutteile,Gutteile,True
+opencv_frame_12 - Kopie.png,0.9979612827301025,Gutteile,Gutteile,True
+opencv_frame_12.png,0.9979612827301025,Gutteile,Gutteile,True
+opencv_frame_120 - Kopie (2).png,0.978409469127655,Gutteile,Gutteile,True
+opencv_frame_120 - Kopie.png,0.978409469127655,Gutteile,Gutteile,True
+opencv_frame_120.png,0.978409469127655,Gutteile,Gutteile,True
+opencv_frame_121 - Kopie (2).png,0.9570754170417786,Gutteile,Gutteile,True
+opencv_frame_121 - Kopie.png,0.9570754170417786,Gutteile,Gutteile,True
+opencv_frame_121.png,0.9570754170417786,Gutteile,Gutteile,True
+opencv_frame_122 - Kopie (2).png,0.9929261803627014,Gutteile,Gutteile,True
+opencv_frame_122 - Kopie.png,0.9929261803627014,Gutteile,Gutteile,True
+opencv_frame_122.png,0.9929261803627014,Gutteile,Gutteile,True
+opencv_frame_123 - Kopie (2).png,0.995891809463501,Gutteile,Gutteile,True
+opencv_frame_123 - Kopie.png,0.995891809463501,Gutteile,Gutteile,True
+opencv_frame_123.png,0.995891809463501,Gutteile,Gutteile,True
+opencv_frame_124 - Kopie (2).png,0.9969208240509033,Gutteile,Gutteile,True
+opencv_frame_124 - Kopie.png,0.9969208240509033,Gutteile,Gutteile,True
+opencv_frame_124.png,0.9969208240509033,Gutteile,Gutteile,True
+opencv_frame_125 - Kopie (2).png,0.9984040856361389,Gutteile,Gutteile,True
+opencv_frame_125 - Kopie.png,0.9984040856361389,Gutteile,Gutteile,True
+opencv_frame_125.png,0.9984040856361389,Gutteile,Gutteile,True
+opencv_frame_126 - Kopie (2).png,0.9935076236724854,Gutteile,Gutteile,True
+opencv_frame_126 - Kopie.png,0.9935076236724854,Gutteile,Gutteile,True
+opencv_frame_126.png,0.9935076236724854,Gutteile,Gutteile,True
+opencv_frame_127 - Kopie (2).png,0.9721142053604126,Gutteile,Gutteile,True
+opencv_frame_127 - Kopie.png,0.9721142053604126,Gutteile,Gutteile,True
+opencv_frame_127.png,0.9721142053604126,Gutteile,Gutteile,True
+opencv_frame_128 - Kopie (2).png,0.965276837348938,Gutteile,Gutteile,True
+opencv_frame_128 - Kopie.png,0.965276837348938,Gutteile,Gutteile,True
+opencv_frame_128.png,0.965276837348938,Gutteile,Gutteile,True
+opencv_frame_13 - Kopie (2).png,0.9513365626335144,Gutteile,Gutteile,True
+opencv_frame_13 - Kopie.png,0.9513365626335144,Gutteile,Gutteile,True
+opencv_frame_13.png,0.9513365626335144,Gutteile,Gutteile,True
+opencv_frame_134 - Kopie (2).png,0.9940671920776367,Gutteile,Gutteile,True
+opencv_frame_134 - Kopie.png,0.9940671920776367,Gutteile,Gutteile,True
+opencv_frame_134.png,0.9940671920776367,Gutteile,Gutteile,True
+opencv_frame_135 - Kopie (2).png,0.9949746131896973,Gutteile,Gutteile,True
+opencv_frame_135 - Kopie.png,0.9949746131896973,Gutteile,Gutteile,True
+opencv_frame_135.png,0.9949746131896973,Gutteile,Gutteile,True
+opencv_frame_136 - Kopie (2).png,0.9730490446090698,Gutteile,Gutteile,True
+opencv_frame_136 - Kopie.png,0.9730490446090698,Gutteile,Gutteile,True
+opencv_frame_136.png,0.9730490446090698,Gutteile,Gutteile,True
+opencv_frame_137 - Kopie (2).png,0.9058444499969482,Gutteile,Gutteile,True
+opencv_frame_137 - Kopie.png,0.9058444499969482,Gutteile,Gutteile,True
+opencv_frame_137.png,0.9058444499969482,Gutteile,Gutteile,True
+opencv_frame_138 - Kopie (2).png,0.9752002358436584,Gutteile,Gutteile,True
+opencv_frame_138 - Kopie.png,0.9752002358436584,Gutteile,Gutteile,True
+opencv_frame_138.png,0.9752002358436584,Gutteile,Gutteile,True
+opencv_frame_139 - Kopie (2).png,0.9996240139007568,Gutteile,Gutteile,True
+opencv_frame_139 - Kopie.png,0.9996240139007568,Gutteile,Gutteile,True
+opencv_frame_139.png,0.9996240139007568,Gutteile,Gutteile,True
+opencv_frame_14 - Kopie (2).png,0.9183854460716248,Gutteile,Gutteile,True
+opencv_frame_14 - Kopie.png,0.9183854460716248,Gutteile,Gutteile,True
+opencv_frame_14.png,0.9183854460716248,Gutteile,Gutteile,True
+opencv_frame_140 - Kopie (2).png,0.9967024922370911,Gutteile,Gutteile,True
+opencv_frame_140 - Kopie.png,0.9967024922370911,Gutteile,Gutteile,True
+opencv_frame_140.png,0.9967024922370911,Gutteile,Gutteile,True
+opencv_frame_141 - Kopie (2).png,0.8107390999794006,Gutteile,Gutteile,True
+opencv_frame_141 - Kopie.png,0.8107390999794006,Gutteile,Gutteile,True
+opencv_frame_141.png,0.8107390999794006,Gutteile,Gutteile,True
+opencv_frame_142 - Kopie (2).png,0.7609105110168457,Gutteile,Gutteile,True
+opencv_frame_142 - Kopie.png,0.7609105110168457,Gutteile,Gutteile,True
+opencv_frame_142.png,0.7609105110168457,Gutteile,Gutteile,True
+opencv_frame_143 - Kopie (2).png,0.9985149502754211,Gutteile,Gutteile,True
+opencv_frame_143 - Kopie.png,0.9985149502754211,Gutteile,Gutteile,True
+opencv_frame_143.png,0.9985149502754211,Gutteile,Gutteile,True
+opencv_frame_145 - Kopie (2).png,0.9730187654495239,Gutteile,Gutteile,True
+opencv_frame_145 - Kopie.png,0.9730187654495239,Gutteile,Gutteile,True
+opencv_frame_145.png,0.9730187654495239,Gutteile,Gutteile,True
+opencv_frame_146 - Kopie (2).png,0.9803639650344849,Gutteile,Gutteile,True
+opencv_frame_146 - Kopie.png,0.9803639650344849,Gutteile,Gutteile,True
+opencv_frame_146.png,0.9803639650344849,Gutteile,Gutteile,True
+opencv_frame_147 - Kopie (2).png,0.9845970273017883,Gutteile,Gutteile,True
+opencv_frame_147 - Kopie.png,0.9845970273017883,Gutteile,Gutteile,True
+opencv_frame_147.png,0.9845970273017883,Gutteile,Gutteile,True
+opencv_frame_148 - Kopie (2).png,0.9265231490135193,Gutteile,Gutteile,True
+opencv_frame_148 - Kopie.png,0.9265231490135193,Gutteile,Gutteile,True
+opencv_frame_148.png,0.9265231490135193,Gutteile,Gutteile,True
+opencv_frame_149 - Kopie (2).png,0.8920252323150635,Gutteile,Gutteile,True
+opencv_frame_149 - Kopie.png,0.8920252323150635,Gutteile,Gutteile,True
+opencv_frame_149.png,0.8920252323150635,Gutteile,Gutteile,True
+opencv_frame_15 - Kopie (2).png,0.9714494943618774,Gutteile,Gutteile,True
+opencv_frame_15 - Kopie.png,0.9714494943618774,Gutteile,Gutteile,True
+opencv_frame_15.png,0.9714494943618774,Gutteile,Gutteile,True
+opencv_frame_150 - Kopie (2).png,0.9997901320457458,Gutteile,Gutteile,True
+opencv_frame_150 - Kopie.png,0.9997901320457458,Gutteile,Gutteile,True
+opencv_frame_150.png,0.9997901320457458,Gutteile,Gutteile,True
+opencv_frame_151 - Kopie (2).png,0.9638209342956543,Gutteile,Gutteile,True
+opencv_frame_151 - Kopie.png,0.9638209342956543,Gutteile,Gutteile,True
+opencv_frame_151.png,0.9638209342956543,Gutteile,Gutteile,True
+opencv_frame_152 - Kopie (2).png,0.9681355357170105,Gutteile,Gutteile,True
+opencv_frame_152 - Kopie.png,0.9681355357170105,Gutteile,Gutteile,True
+opencv_frame_152.png,0.9681355357170105,Gutteile,Gutteile,True
+opencv_frame_153 - Kopie (2).png,0.9638517498970032,Gutteile,Gutteile,True
+opencv_frame_153 - Kopie.png,0.9638517498970032,Gutteile,Gutteile,True
+opencv_frame_153.png,0.9638517498970032,Gutteile,Gutteile,True
+opencv_frame_154 - Kopie (2).png,0.6748120188713074,Gutteile,Gutteile,True
+opencv_frame_154 - Kopie.png,0.6748120188713074,Gutteile,Gutteile,True
+opencv_frame_154.png,0.6748120188713074,Gutteile,Gutteile,True
+opencv_frame_155 - Kopie (2).png,0.9458712935447693,Gutteile,Gutteile,True
+opencv_frame_155 - Kopie.png,0.9458712935447693,Gutteile,Gutteile,True
+opencv_frame_155.png,0.9458712935447693,Gutteile,Gutteile,True
+opencv_frame_156 - Kopie (2).png,0.9732504487037659,Gutteile,Gutteile,True
+opencv_frame_156 - Kopie.png,0.9732504487037659,Gutteile,Gutteile,True
+opencv_frame_156.png,0.9732504487037659,Gutteile,Gutteile,True
+opencv_frame_157 - Kopie (2).png,0.9664766788482666,Gutteile,Gutteile,True
+opencv_frame_157 - Kopie.png,0.9664766788482666,Gutteile,Gutteile,True
+opencv_frame_157.png,0.9664766788482666,Gutteile,Gutteile,True
+opencv_frame_158 - Kopie (2).png,0.9618884325027466,Gutteile,Gutteile,True
+opencv_frame_158 - Kopie.png,0.9618884325027466,Gutteile,Gutteile,True
+opencv_frame_158.png,0.9618884325027466,Gutteile,Gutteile,True
+opencv_frame_159 - Kopie (2).png,0.9847352504730225,Gutteile,Gutteile,True
+opencv_frame_159 - Kopie.png,0.9847352504730225,Gutteile,Gutteile,True
+opencv_frame_159.png,0.9847352504730225,Gutteile,Gutteile,True
+opencv_frame_16 - Kopie (2).png,0.971405029296875,Gutteile,Gutteile,True
+opencv_frame_16 - Kopie.png,0.971405029296875,Gutteile,Gutteile,True
+opencv_frame_16.png,0.971405029296875,Gutteile,Gutteile,True
+opencv_frame_160 - Kopie (2).png,0.9886957406997681,Gutteile,Gutteile,True
+opencv_frame_160 - Kopie.png,0.9886957406997681,Gutteile,Gutteile,True
+opencv_frame_160.png,0.9886957406997681,Gutteile,Gutteile,True
+opencv_frame_161 - Kopie (2).png,0.9790968298912048,Gutteile,Gutteile,True
+opencv_frame_161 - Kopie.png,0.9790968298912048,Gutteile,Gutteile,True
+opencv_frame_161.png,0.9790968298912048,Gutteile,Gutteile,True
+opencv_frame_162 - Kopie (2).png,0.9277997612953186,Gutteile,Gutteile,True
+opencv_frame_162 - Kopie.png,0.9277997612953186,Gutteile,Gutteile,True
+opencv_frame_162.png,0.9277997612953186,Gutteile,Gutteile,True
+opencv_frame_163 - Kopie (2).png,0.9876639246940613,Gutteile,Gutteile,True
+opencv_frame_163 - Kopie.png,0.9876639246940613,Gutteile,Gutteile,True
+opencv_frame_163.png,0.9876639246940613,Gutteile,Gutteile,True
+opencv_frame_164 - Kopie (2).png,0.9759382605552673,Gutteile,Gutteile,True
+opencv_frame_164 - Kopie.png,0.9759382605552673,Gutteile,Gutteile,True
+opencv_frame_164.png,0.9759382605552673,Gutteile,Gutteile,True
+opencv_frame_165 - Kopie (2).png,0.9910600781440735,Gutteile,Gutteile,True
+opencv_frame_165 - Kopie.png,0.9910600781440735,Gutteile,Gutteile,True
+opencv_frame_165.png,0.9910600781440735,Gutteile,Gutteile,True
+opencv_frame_166 - Kopie (2).png,0.9901247024536133,Gutteile,Gutteile,True
+opencv_frame_166 - Kopie.png,0.9901247024536133,Gutteile,Gutteile,True
+opencv_frame_166.png,0.9901247024536133,Gutteile,Gutteile,True
+opencv_frame_167 - Kopie (2).png,0.9748032689094543,Gutteile,Gutteile,True
+opencv_frame_167 - Kopie.png,0.9748032689094543,Gutteile,Gutteile,True
+opencv_frame_167.png,0.9748032689094543,Gutteile,Gutteile,True
+opencv_frame_168 - Kopie (2).png,0.9854066371917725,Gutteile,Gutteile,True
+opencv_frame_168 - Kopie.png,0.9854066371917725,Gutteile,Gutteile,True
+opencv_frame_168.png,0.9854066371917725,Gutteile,Gutteile,True
+opencv_frame_169 - Kopie (2).png,0.9805323481559753,Gutteile,Gutteile,True
+opencv_frame_169 - Kopie.png,0.9805323481559753,Gutteile,Gutteile,True
+opencv_frame_169.png,0.9805323481559753,Gutteile,Gutteile,True
+opencv_frame_17 - Kopie (2).png,0.9345539808273315,Gutteile,Gutteile,True
+opencv_frame_17 - Kopie.png,0.9345539808273315,Gutteile,Gutteile,True
+opencv_frame_17.png,0.9345539808273315,Gutteile,Gutteile,True
+opencv_frame_170 - Kopie (2).png,0.9564899206161499,Gutteile,Gutteile,True
+opencv_frame_170 - Kopie.png,0.9564899206161499,Gutteile,Gutteile,True
+opencv_frame_170.png,0.9564899206161499,Gutteile,Gutteile,True
+opencv_frame_171 - Kopie (2).png,0.7465007305145264,Gutteile,Gutteile,True
+opencv_frame_171 - Kopie.png,0.7465007305145264,Gutteile,Gutteile,True
+opencv_frame_171.png,0.7465007305145264,Gutteile,Gutteile,True
+opencv_frame_172 - Kopie (2).png,0.9800122380256653,Gutteile,Gutteile,True
+opencv_frame_172 - Kopie.png,0.9800122380256653,Gutteile,Gutteile,True
+opencv_frame_172.png,0.9800122380256653,Gutteile,Gutteile,True
+opencv_frame_173 - Kopie (2).png,0.8964587450027466,Gutteile,Gutteile,True
+opencv_frame_173 - Kopie.png,0.8964587450027466,Gutteile,Gutteile,True
+opencv_frame_173.png,0.8964587450027466,Gutteile,Gutteile,True
+opencv_frame_174 - Kopie (2).png,0.9083756804466248,Gutteile,Gutteile,True
+opencv_frame_174 - Kopie.png,0.9083756804466248,Gutteile,Gutteile,True
+opencv_frame_174.png,0.9083756804466248,Gutteile,Gutteile,True
+opencv_frame_175 - Kopie (2).png,0.9799715280532837,Gutteile,Gutteile,True
+opencv_frame_175 - Kopie.png,0.9799715280532837,Gutteile,Gutteile,True
+opencv_frame_175.png,0.9799715280532837,Gutteile,Gutteile,True
+opencv_frame_176 - Kopie (2).png,0.6028738617897034,Gutteile,Gutteile,True
+opencv_frame_176 - Kopie.png,0.6028738617897034,Gutteile,Gutteile,True
+opencv_frame_176.png,0.6028738617897034,Gutteile,Gutteile,True
+opencv_frame_177 - Kopie (2).png,0.6428393125534058,Fehler,Gutteile,False
+opencv_frame_177 - Kopie.png,0.6428393125534058,Fehler,Gutteile,False
+opencv_frame_177.png,0.6428393125534058,Fehler,Gutteile,False
+opencv_frame_178 - Kopie (2).png,0.9665687084197998,Gutteile,Gutteile,True
+opencv_frame_178 - Kopie.png,0.9665687084197998,Gutteile,Gutteile,True
+opencv_frame_178.png,0.9665687084197998,Gutteile,Gutteile,True
+opencv_frame_179 - Kopie (2).png,0.9008824825286865,Gutteile,Gutteile,True
+opencv_frame_179 - Kopie.png,0.9008824825286865,Gutteile,Gutteile,True
+opencv_frame_179.png,0.9008824825286865,Gutteile,Gutteile,True
+opencv_frame_18 - Kopie (2).png,0.9660689830780029,Gutteile,Gutteile,True
+opencv_frame_18 - Kopie.png,0.9660689830780029,Gutteile,Gutteile,True
+opencv_frame_18.png,0.9660689830780029,Gutteile,Gutteile,True
+opencv_frame_180 - Kopie (2).png,0.9708893299102783,Gutteile,Gutteile,True
+opencv_frame_180 - Kopie.png,0.9708893299102783,Gutteile,Gutteile,True
+opencv_frame_180.png,0.9708893299102783,Gutteile,Gutteile,True
+opencv_frame_184 - Kopie (2).png,0.9452396035194397,Gutteile,Gutteile,True
+opencv_frame_184 - Kopie.png,0.9452396035194397,Gutteile,Gutteile,True
+opencv_frame_184.png,0.9452396035194397,Gutteile,Gutteile,True
+opencv_frame_185 - Kopie (2).png,0.9474064707756042,Gutteile,Gutteile,True
+opencv_frame_185 - Kopie.png,0.9474064707756042,Gutteile,Gutteile,True
+opencv_frame_185.png,0.9474064707756042,Gutteile,Gutteile,True
+opencv_frame_186 - Kopie (2).png,0.9884627461433411,Gutteile,Gutteile,True
+opencv_frame_186 - Kopie.png,0.9884627461433411,Gutteile,Gutteile,True
+opencv_frame_186.png,0.9884627461433411,Gutteile,Gutteile,True
+opencv_frame_187 - Kopie (2).png,0.990138053894043,Gutteile,Gutteile,True
+opencv_frame_187 - Kopie.png,0.990138053894043,Gutteile,Gutteile,True
+opencv_frame_187.png,0.990138053894043,Gutteile,Gutteile,True
+opencv_frame_188 - Kopie (2).png,0.7843058109283447,Gutteile,Gutteile,True
+opencv_frame_188 - Kopie.png,0.7843058109283447,Gutteile,Gutteile,True
+opencv_frame_188.png,0.7843058109283447,Gutteile,Gutteile,True
+opencv_frame_189 - Kopie (2).png,0.9881764054298401,Gutteile,Gutteile,True
+opencv_frame_189 - Kopie.png,0.9881764054298401,Gutteile,Gutteile,True
+opencv_frame_189.png,0.9881764054298401,Gutteile,Gutteile,True
+opencv_frame_19 - Kopie (2).png,0.9686435461044312,Gutteile,Gutteile,True
+opencv_frame_19 - Kopie.png,0.9686435461044312,Gutteile,Gutteile,True
+opencv_frame_19.png,0.9686435461044312,Gutteile,Gutteile,True
+opencv_frame_190 - Kopie (2).png,0.9943966865539551,Gutteile,Gutteile,True
+opencv_frame_190 - Kopie.png,0.9943966865539551,Gutteile,Gutteile,True
+opencv_frame_190.png,0.9943966865539551,Gutteile,Gutteile,True
+opencv_frame_191 - Kopie (2).png,0.9948179125785828,Gutteile,Gutteile,True
+opencv_frame_191 - Kopie.png,0.9948179125785828,Gutteile,Gutteile,True
+opencv_frame_191.png,0.9948179125785828,Gutteile,Gutteile,True
+opencv_frame_192 - Kopie (2).png,0.9999717473983765,Gutteile,Gutteile,True
+opencv_frame_192 - Kopie.png,0.9999717473983765,Gutteile,Gutteile,True
+opencv_frame_192.png,0.9999717473983765,Gutteile,Gutteile,True
+opencv_frame_193 - Kopie (2).png,0.9997368454933167,Gutteile,Gutteile,True
+opencv_frame_193 - Kopie.png,0.9997368454933167,Gutteile,Gutteile,True
+opencv_frame_193.png,0.9997368454933167,Gutteile,Gutteile,True
+opencv_frame_194 - Kopie (2).png,0.9950980544090271,Gutteile,Gutteile,True
+opencv_frame_194 - Kopie.png,0.9950980544090271,Gutteile,Gutteile,True
+opencv_frame_194.png,0.9950980544090271,Gutteile,Gutteile,True
+opencv_frame_195 - Kopie (2).png,0.9950351715087891,Gutteile,Gutteile,True
+opencv_frame_195 - Kopie.png,0.9950351715087891,Gutteile,Gutteile,True
+opencv_frame_195.png,0.9950351715087891,Gutteile,Gutteile,True
+opencv_frame_196 - Kopie (2).png,0.990094006061554,Gutteile,Gutteile,True
+opencv_frame_196 - Kopie.png,0.990094006061554,Gutteile,Gutteile,True
+opencv_frame_196.png,0.990094006061554,Gutteile,Gutteile,True
+opencv_frame_197 - Kopie (2).png,0.9881317615509033,Gutteile,Gutteile,True
+opencv_frame_197 - Kopie.png,0.9881317615509033,Gutteile,Gutteile,True
+opencv_frame_197.png,0.9881317615509033,Gutteile,Gutteile,True
+opencv_frame_198 - Kopie (2).png,0.9697508811950684,Gutteile,Gutteile,True
+opencv_frame_198 - Kopie.png,0.9697508811950684,Gutteile,Gutteile,True
+opencv_frame_198.png,0.9697508811950684,Gutteile,Gutteile,True
+opencv_frame_199 - Kopie (2).png,0.9012618064880371,Gutteile,Gutteile,True
+opencv_frame_199 - Kopie.png,0.9012618064880371,Gutteile,Gutteile,True
+opencv_frame_199.png,0.9012618064880371,Gutteile,Gutteile,True
+opencv_frame_2 - Kopie (2).png,0.758538007736206,Gutteile,Gutteile,True
+opencv_frame_2 - Kopie.png,0.758538007736206,Gutteile,Gutteile,True
+opencv_frame_2.png,0.758538007736206,Gutteile,Gutteile,True
+opencv_frame_20 - Kopie (2).png,0.9938015341758728,Gutteile,Gutteile,True
+opencv_frame_20 - Kopie.png,0.9938015341758728,Gutteile,Gutteile,True
+opencv_frame_20.png,0.9938015341758728,Gutteile,Gutteile,True
+opencv_frame_200 - Kopie (2).png,0.9535142183303833,Gutteile,Gutteile,True
+opencv_frame_200 - Kopie.png,0.9535142183303833,Gutteile,Gutteile,True
+opencv_frame_200.png,0.9535142183303833,Gutteile,Gutteile,True
+opencv_frame_201 - Kopie (2).png,0.8963891863822937,Gutteile,Gutteile,True
+opencv_frame_201 - Kopie.png,0.8963891863822937,Gutteile,Gutteile,True
+opencv_frame_201.png,0.8963891863822937,Gutteile,Gutteile,True
+opencv_frame_202 - Kopie (2).png,0.8192632794380188,Gutteile,Gutteile,True
+opencv_frame_202 - Kopie.png,0.8192632794380188,Gutteile,Gutteile,True
+opencv_frame_202.png,0.8192632794380188,Gutteile,Gutteile,True
+opencv_frame_203 - Kopie (2).png,0.9774730205535889,Gutteile,Gutteile,True
+opencv_frame_203 - Kopie.png,0.9774730205535889,Gutteile,Gutteile,True
+opencv_frame_203.png,0.9774730205535889,Gutteile,Gutteile,True
+opencv_frame_204 - Kopie (2).png,0.9621623754501343,Gutteile,Gutteile,True
+opencv_frame_204 - Kopie.png,0.9621623754501343,Gutteile,Gutteile,True
+opencv_frame_204.png,0.9621623754501343,Gutteile,Gutteile,True
+opencv_frame_205 - Kopie (2).png,0.9721765518188477,Gutteile,Gutteile,True
+opencv_frame_205 - Kopie.png,0.9721765518188477,Gutteile,Gutteile,True
+opencv_frame_205.png,0.9721765518188477,Gutteile,Gutteile,True
+opencv_frame_206 - Kopie (2).png,0.9422503709793091,Gutteile,Gutteile,True
+opencv_frame_206 - Kopie.png,0.9422503709793091,Gutteile,Gutteile,True
+opencv_frame_206.png,0.9422503709793091,Gutteile,Gutteile,True
+opencv_frame_207 - Kopie (2).png,0.9935420751571655,Gutteile,Gutteile,True
+opencv_frame_207 - Kopie.png,0.9935420751571655,Gutteile,Gutteile,True
+opencv_frame_207.png,0.9935420751571655,Gutteile,Gutteile,True
+opencv_frame_208 - Kopie (2).png,0.9432473182678223,Gutteile,Gutteile,True
+opencv_frame_208 - Kopie.png,0.9432473182678223,Gutteile,Gutteile,True
+opencv_frame_208.png,0.9432473182678223,Gutteile,Gutteile,True
+opencv_frame_209 - Kopie (2).png,0.9647371172904968,Gutteile,Gutteile,True
+opencv_frame_209 - Kopie.png,0.9647371172904968,Gutteile,Gutteile,True
+opencv_frame_209.png,0.9647371172904968,Gutteile,Gutteile,True
+opencv_frame_21 - Kopie (2).png,0.953478991985321,Gutteile,Gutteile,True
+opencv_frame_21 - Kopie.png,0.953478991985321,Gutteile,Gutteile,True
+opencv_frame_21.png,0.953478991985321,Gutteile,Gutteile,True
+opencv_frame_210 - Kopie (2).png,0.6948210000991821,Gutteile,Gutteile,True
+opencv_frame_210 - Kopie.png,0.6948210000991821,Gutteile,Gutteile,True
+opencv_frame_210.png,0.6948210000991821,Gutteile,Gutteile,True
+opencv_frame_211 - Kopie (2).png,0.994023859500885,Gutteile,Gutteile,True
+opencv_frame_211 - Kopie.png,0.994023859500885,Gutteile,Gutteile,True
+opencv_frame_211.png,0.994023859500885,Gutteile,Gutteile,True
+opencv_frame_212 - Kopie (2).png,0.9381371140480042,Gutteile,Gutteile,True
+opencv_frame_212 - Kopie.png,0.9381371140480042,Gutteile,Gutteile,True
+opencv_frame_212.png,0.9381371140480042,Gutteile,Gutteile,True
+opencv_frame_213 - Kopie (2).png,0.8683632612228394,Gutteile,Gutteile,True
+opencv_frame_213 - Kopie.png,0.8683632612228394,Gutteile,Gutteile,True
+opencv_frame_213.png,0.8683632612228394,Gutteile,Gutteile,True
+opencv_frame_214 - Kopie (2).png,0.7036974430084229,Gutteile,Gutteile,True
+opencv_frame_214 - Kopie.png,0.7036974430084229,Gutteile,Gutteile,True
+opencv_frame_214.png,0.7036974430084229,Gutteile,Gutteile,True
+opencv_frame_215 - Kopie (2).png,0.9670142531394958,Gutteile,Gutteile,True
+opencv_frame_215 - Kopie.png,0.9670142531394958,Gutteile,Gutteile,True
+opencv_frame_215.png,0.9670142531394958,Gutteile,Gutteile,True
+opencv_frame_216 - Kopie (2).png,0.7605533599853516,Gutteile,Gutteile,True
+opencv_frame_216 - Kopie.png,0.7605533599853516,Gutteile,Gutteile,True
+opencv_frame_216.png,0.7605533599853516,Gutteile,Gutteile,True
+opencv_frame_217 - Kopie (2).png,0.8456349968910217,Gutteile,Gutteile,True
+opencv_frame_217 - Kopie.png,0.8456349968910217,Gutteile,Gutteile,True
+opencv_frame_217.png,0.8456349968910217,Gutteile,Gutteile,True
+opencv_frame_218 - Kopie (2).png,0.7808361053466797,Gutteile,Gutteile,True
+opencv_frame_218 - Kopie.png,0.7808361053466797,Gutteile,Gutteile,True
+opencv_frame_218.png,0.7808361053466797,Gutteile,Gutteile,True
+opencv_frame_219 - Kopie (2).png,0.7632347941398621,Gutteile,Gutteile,True
+opencv_frame_219 - Kopie.png,0.7632347941398621,Gutteile,Gutteile,True
+opencv_frame_219.png,0.7632347941398621,Gutteile,Gutteile,True
+opencv_frame_22 - Kopie (2).png,0.9981786012649536,Gutteile,Gutteile,True
+opencv_frame_22 - Kopie.png,0.9981786012649536,Gutteile,Gutteile,True
+opencv_frame_22.png,0.9981786012649536,Gutteile,Gutteile,True
+opencv_frame_220 - Kopie (2).png,0.5374579429626465,Fehler,Gutteile,False
+opencv_frame_220 - Kopie.png,0.5374579429626465,Fehler,Gutteile,False
+opencv_frame_220.png,0.5374579429626465,Fehler,Gutteile,False
+opencv_frame_221 - Kopie (2).png,0.9779821634292603,Gutteile,Gutteile,True
+opencv_frame_221 - Kopie.png,0.9779821634292603,Gutteile,Gutteile,True
+opencv_frame_221.png,0.9779821634292603,Gutteile,Gutteile,True
+opencv_frame_222 - Kopie (2).png,0.8595901727676392,Fehler,Gutteile,False
+opencv_frame_222 - Kopie.png,0.8595901727676392,Fehler,Gutteile,False
+opencv_frame_222.png,0.8595901727676392,Fehler,Gutteile,False
+opencv_frame_223 - Kopie (2).png,0.9831121563911438,Gutteile,Gutteile,True
+opencv_frame_223 - Kopie.png,0.9831121563911438,Gutteile,Gutteile,True
+opencv_frame_223.png,0.9831121563911438,Gutteile,Gutteile,True
+opencv_frame_224 - Kopie (2).png,0.9729549288749695,Gutteile,Gutteile,True
+opencv_frame_224 - Kopie.png,0.9729549288749695,Gutteile,Gutteile,True
+opencv_frame_224.png,0.9729549288749695,Gutteile,Gutteile,True
+opencv_frame_225 - Kopie (2).png,0.7700033187866211,Gutteile,Gutteile,True
+opencv_frame_225 - Kopie.png,0.7700033187866211,Gutteile,Gutteile,True
+opencv_frame_225.png,0.7700033187866211,Gutteile,Gutteile,True
+opencv_frame_226 - Kopie (2).png,0.9992675185203552,Gutteile,Gutteile,True
+opencv_frame_226 - Kopie.png,0.9992675185203552,Gutteile,Gutteile,True
+opencv_frame_226.png,0.9992675185203552,Gutteile,Gutteile,True
+opencv_frame_227 - Kopie (2).png,0.9825092554092407,Gutteile,Gutteile,True
+opencv_frame_227 - Kopie.png,0.9825092554092407,Gutteile,Gutteile,True
+opencv_frame_227.png,0.9825092554092407,Gutteile,Gutteile,True
+opencv_frame_228 - Kopie (2).png,0.9968472123146057,Gutteile,Gutteile,True
+opencv_frame_228 - Kopie.png,0.9968472123146057,Gutteile,Gutteile,True
+opencv_frame_228.png,0.9968472123146057,Gutteile,Gutteile,True
+opencv_frame_229 - Kopie (2).png,0.990839421749115,Gutteile,Gutteile,True
+opencv_frame_229 - Kopie.png,0.990839421749115,Gutteile,Gutteile,True
+opencv_frame_229.png,0.990839421749115,Gutteile,Gutteile,True
+opencv_frame_23 - Kopie (2).png,0.995775043964386,Gutteile,Gutteile,True
+opencv_frame_23 - Kopie.png,0.995775043964386,Gutteile,Gutteile,True
+opencv_frame_23.png,0.995775043964386,Gutteile,Gutteile,True
+opencv_frame_230 - Kopie (2).png,0.9767746329307556,Gutteile,Gutteile,True
+opencv_frame_230 - Kopie.png,0.9767746329307556,Gutteile,Gutteile,True
+opencv_frame_230.png,0.9767746329307556,Gutteile,Gutteile,True
+opencv_frame_231 - Kopie (2).png,0.9426529407501221,Gutteile,Gutteile,True
+opencv_frame_231 - Kopie.png,0.9426529407501221,Gutteile,Gutteile,True
+opencv_frame_231.png,0.9426529407501221,Gutteile,Gutteile,True
+opencv_frame_232 - Kopie (2).png,0.5542000532150269,Gutteile,Gutteile,True
+opencv_frame_232 - Kopie.png,0.5542000532150269,Gutteile,Gutteile,True
+opencv_frame_232.png,0.5542000532150269,Gutteile,Gutteile,True
+opencv_frame_233 - Kopie (2).png,0.9010002613067627,Gutteile,Gutteile,True
+opencv_frame_233 - Kopie.png,0.9010002613067627,Gutteile,Gutteile,True
+opencv_frame_233.png,0.9010002613067627,Gutteile,Gutteile,True
+opencv_frame_234 - Kopie (2).png,0.8558551073074341,Gutteile,Gutteile,True
+opencv_frame_234 - Kopie.png,0.8558551073074341,Gutteile,Gutteile,True
+opencv_frame_234.png,0.8558551073074341,Gutteile,Gutteile,True
+opencv_frame_235 - Kopie (2).png,0.9368557333946228,Gutteile,Gutteile,True
+opencv_frame_235 - Kopie.png,0.9368557333946228,Gutteile,Gutteile,True
+opencv_frame_235.png,0.9368557333946228,Gutteile,Gutteile,True
+opencv_frame_236 - Kopie (2).png,0.9787858724594116,Gutteile,Gutteile,True
+opencv_frame_236 - Kopie.png,0.9787858724594116,Gutteile,Gutteile,True
+opencv_frame_236.png,0.9787858724594116,Gutteile,Gutteile,True
+opencv_frame_237 - Kopie (2).png,0.6245458126068115,Gutteile,Gutteile,True
+opencv_frame_237 - Kopie.png,0.6245458126068115,Gutteile,Gutteile,True
+opencv_frame_237.png,0.6245458126068115,Gutteile,Gutteile,True
+opencv_frame_238 - Kopie (2).png,0.9650061130523682,Gutteile,Gutteile,True
+opencv_frame_238 - Kopie.png,0.9650061130523682,Gutteile,Gutteile,True
+opencv_frame_238.png,0.9650061130523682,Gutteile,Gutteile,True
+opencv_frame_239 - Kopie (2).png,0.8156163096427917,Gutteile,Gutteile,True
+opencv_frame_239 - Kopie.png,0.8156163096427917,Gutteile,Gutteile,True
+opencv_frame_239.png,0.8156163096427917,Gutteile,Gutteile,True
+opencv_frame_24 - Kopie (2).png,0.9941835999488831,Gutteile,Gutteile,True
+opencv_frame_24 - Kopie.png,0.9941835999488831,Gutteile,Gutteile,True
+opencv_frame_24.png,0.9941835999488831,Gutteile,Gutteile,True
+opencv_frame_240 - Kopie (2).png,0.6595804691314697,Fehler,Gutteile,False
+opencv_frame_240 - Kopie.png,0.6595804691314697,Fehler,Gutteile,False
+opencv_frame_240.png,0.6595804691314697,Fehler,Gutteile,False
+opencv_frame_241 - Kopie (2).png,0.7184990644454956,Gutteile,Gutteile,True
+opencv_frame_241 - Kopie.png,0.7184990644454956,Gutteile,Gutteile,True
+opencv_frame_241.png,0.7184990644454956,Gutteile,Gutteile,True
+opencv_frame_242 - Kopie (2).png,0.9417005181312561,Gutteile,Gutteile,True
+opencv_frame_242 - Kopie.png,0.9417005181312561,Gutteile,Gutteile,True
+opencv_frame_242.png,0.9417005181312561,Gutteile,Gutteile,True
+opencv_frame_243 - Kopie (2).png,0.5197736620903015,Fehler,Gutteile,False
+opencv_frame_243 - Kopie.png,0.5197736620903015,Fehler,Gutteile,False
+opencv_frame_243.png,0.5197736620903015,Fehler,Gutteile,False
+opencv_frame_244 - Kopie (2).png,0.6278517842292786,Gutteile,Gutteile,True
+opencv_frame_244 - Kopie.png,0.6278517842292786,Gutteile,Gutteile,True
+opencv_frame_244.png,0.6278517842292786,Gutteile,Gutteile,True
+opencv_frame_245 - Kopie (2).png,0.5663041472434998,Gutteile,Gutteile,True
+opencv_frame_245 - Kopie.png,0.5663041472434998,Gutteile,Gutteile,True
+opencv_frame_245.png,0.5663041472434998,Gutteile,Gutteile,True
+opencv_frame_246 - Kopie (2).png,0.5383690595626831,Gutteile,Gutteile,True
+opencv_frame_246 - Kopie.png,0.5383690595626831,Gutteile,Gutteile,True
+opencv_frame_246.png,0.5383690595626831,Gutteile,Gutteile,True
+opencv_frame_247 - Kopie (2).png,0.7389969229698181,Gutteile,Gutteile,True
+opencv_frame_247 - Kopie.png,0.7389969229698181,Gutteile,Gutteile,True
+opencv_frame_247.png,0.7389969229698181,Gutteile,Gutteile,True
+opencv_frame_248 - Kopie (2).png,0.7847260236740112,Fehler,Gutteile,False
+opencv_frame_248 - Kopie.png,0.7847260236740112,Fehler,Gutteile,False
+opencv_frame_248.png,0.7847260236740112,Fehler,Gutteile,False
+opencv_frame_249 - Kopie (2).png,0.9999909400939941,Gutteile,Gutteile,True
+opencv_frame_249 - Kopie.png,0.9999909400939941,Gutteile,Gutteile,True
+opencv_frame_249.png,0.9999909400939941,Gutteile,Gutteile,True
+opencv_frame_25 - Kopie (2).png,0.9774986505508423,Gutteile,Gutteile,True
+opencv_frame_25 - Kopie.png,0.9774986505508423,Gutteile,Gutteile,True
+opencv_frame_25.png,0.9774986505508423,Gutteile,Gutteile,True
+opencv_frame_250 - Kopie (2).png,0.9999983310699463,Gutteile,Gutteile,True
+opencv_frame_250 - Kopie.png,0.9999983310699463,Gutteile,Gutteile,True
+opencv_frame_250.png,0.9999983310699463,Gutteile,Gutteile,True
+opencv_frame_251 - Kopie (2).png,0.9978506565093994,Gutteile,Gutteile,True
+opencv_frame_251 - Kopie.png,0.9978506565093994,Gutteile,Gutteile,True
+opencv_frame_251.png,0.9978506565093994,Gutteile,Gutteile,True
+opencv_frame_252 - Kopie (2).png,0.9972676038742065,Gutteile,Gutteile,True
+opencv_frame_252 - Kopie.png,0.9972676038742065,Gutteile,Gutteile,True
+opencv_frame_252.png,0.9972676038742065,Gutteile,Gutteile,True
+opencv_frame_253 - Kopie (2).png,0.9966901540756226,Gutteile,Gutteile,True
+opencv_frame_253 - Kopie.png,0.9966901540756226,Gutteile,Gutteile,True
+opencv_frame_253.png,0.9966901540756226,Gutteile,Gutteile,True
+opencv_frame_254 - Kopie (2).png,0.9997358918190002,Gutteile,Gutteile,True
+opencv_frame_254 - Kopie.png,0.9997358918190002,Gutteile,Gutteile,True
+opencv_frame_254.png,0.9997358918190002,Gutteile,Gutteile,True
+opencv_frame_255 - Kopie (2).png,0.991951584815979,Gutteile,Gutteile,True
+opencv_frame_255 - Kopie.png,0.991951584815979,Gutteile,Gutteile,True
+opencv_frame_255.png,0.991951584815979,Gutteile,Gutteile,True
+opencv_frame_256 - Kopie (2).png,0.9994328618049622,Gutteile,Gutteile,True
+opencv_frame_256 - Kopie.png,0.9994328618049622,Gutteile,Gutteile,True
+opencv_frame_256.png,0.9994328618049622,Gutteile,Gutteile,True
+opencv_frame_257 - Kopie (2).png,0.9995704293251038,Gutteile,Gutteile,True
+opencv_frame_257 - Kopie.png,0.9995704293251038,Gutteile,Gutteile,True
+opencv_frame_257.png,0.9995704293251038,Gutteile,Gutteile,True
+opencv_frame_258 - Kopie (2).png,0.9985904097557068,Gutteile,Gutteile,True
+opencv_frame_258 - Kopie.png,0.9985904097557068,Gutteile,Gutteile,True
+opencv_frame_258.png,0.9985904097557068,Gutteile,Gutteile,True
+opencv_frame_259 - Kopie (2).png,0.9981995820999146,Gutteile,Gutteile,True
+opencv_frame_259 - Kopie.png,0.9981995820999146,Gutteile,Gutteile,True
+opencv_frame_259.png,0.9981995820999146,Gutteile,Gutteile,True
+opencv_frame_26 - Kopie (2).png,0.9746052622795105,Gutteile,Gutteile,True
+opencv_frame_26 - Kopie.png,0.9746052622795105,Gutteile,Gutteile,True
+opencv_frame_26.png,0.9746052622795105,Gutteile,Gutteile,True
+opencv_frame_260 - Kopie (2).png,0.9998923540115356,Gutteile,Gutteile,True
+opencv_frame_260 - Kopie.png,0.9998923540115356,Gutteile,Gutteile,True
+opencv_frame_260.png,0.9998923540115356,Gutteile,Gutteile,True
+opencv_frame_261 - Kopie (2).png,0.9998003840446472,Gutteile,Gutteile,True
+opencv_frame_261 - Kopie.png,0.9998003840446472,Gutteile,Gutteile,True
+opencv_frame_261.png,0.9998003840446472,Gutteile,Gutteile,True
+opencv_frame_262 - Kopie (2).png,0.9995558857917786,Gutteile,Gutteile,True
+opencv_frame_262 - Kopie.png,0.9995558857917786,Gutteile,Gutteile,True
+opencv_frame_262.png,0.9995558857917786,Gutteile,Gutteile,True
+opencv_frame_263 - Kopie (2).png,0.990527868270874,Gutteile,Gutteile,True
+opencv_frame_263 - Kopie.png,0.990527868270874,Gutteile,Gutteile,True
+opencv_frame_263.png,0.990527868270874,Gutteile,Gutteile,True
+opencv_frame_264 - Kopie (2).png,0.9943874478340149,Gutteile,Gutteile,True
+opencv_frame_264 - Kopie.png,0.9943874478340149,Gutteile,Gutteile,True
+opencv_frame_264.png,0.9943874478340149,Gutteile,Gutteile,True
+opencv_frame_265 - Kopie (2).png,0.9986432194709778,Gutteile,Gutteile,True
+opencv_frame_265 - Kopie.png,0.9986432194709778,Gutteile,Gutteile,True
+opencv_frame_265.png,0.9986432194709778,Gutteile,Gutteile,True
+opencv_frame_266 - Kopie (2).png,0.9950200319290161,Gutteile,Gutteile,True
+opencv_frame_266 - Kopie.png,0.9950200319290161,Gutteile,Gutteile,True
+opencv_frame_266.png,0.9950200319290161,Gutteile,Gutteile,True
+opencv_frame_267 - Kopie (2).png,0.995516836643219,Gutteile,Gutteile,True
+opencv_frame_267 - Kopie.png,0.995516836643219,Gutteile,Gutteile,True
+opencv_frame_267.png,0.995516836643219,Gutteile,Gutteile,True
+opencv_frame_268 - Kopie (2).png,0.9990507960319519,Gutteile,Gutteile,True
+opencv_frame_268 - Kopie.png,0.9990507960319519,Gutteile,Gutteile,True
+opencv_frame_268.png,0.9990507960319519,Gutteile,Gutteile,True
+opencv_frame_269 - Kopie (2).png,0.9790384769439697,Gutteile,Gutteile,True
+opencv_frame_269 - Kopie.png,0.9790384769439697,Gutteile,Gutteile,True
+opencv_frame_269.png,0.9790384769439697,Gutteile,Gutteile,True
+opencv_frame_27 - Kopie (2).png,0.8865309953689575,Gutteile,Gutteile,True
+opencv_frame_27 - Kopie.png,0.8865309953689575,Gutteile,Gutteile,True
+opencv_frame_27.png,0.8865309953689575,Gutteile,Gutteile,True
+opencv_frame_270 - Kopie (2).png,0.9957851767539978,Gutteile,Gutteile,True
+opencv_frame_270 - Kopie.png,0.9957851767539978,Gutteile,Gutteile,True
+opencv_frame_270.png,0.9957851767539978,Gutteile,Gutteile,True
+opencv_frame_271 - Kopie (2).png,0.9997566342353821,Gutteile,Gutteile,True
+opencv_frame_271 - Kopie.png,0.9997566342353821,Gutteile,Gutteile,True
+opencv_frame_271.png,0.9997566342353821,Gutteile,Gutteile,True
+opencv_frame_272 - Kopie (2).png,0.9969549179077148,Gutteile,Gutteile,True
+opencv_frame_272 - Kopie.png,0.9969549179077148,Gutteile,Gutteile,True
+opencv_frame_272.png,0.9969549179077148,Gutteile,Gutteile,True
+opencv_frame_273 - Kopie (2).png,0.9520328640937805,Gutteile,Gutteile,True
+opencv_frame_273 - Kopie.png,0.9520328640937805,Gutteile,Gutteile,True
+opencv_frame_273.png,0.9520328640937805,Gutteile,Gutteile,True
+opencv_frame_274 - Kopie (2).png,0.9912852644920349,Gutteile,Gutteile,True
+opencv_frame_274 - Kopie.png,0.9912852644920349,Gutteile,Gutteile,True
+opencv_frame_274.png,0.9912852644920349,Gutteile,Gutteile,True
+opencv_frame_275 - Kopie (2).png,0.9994930028915405,Gutteile,Gutteile,True
+opencv_frame_275 - Kopie.png,0.9994930028915405,Gutteile,Gutteile,True
+opencv_frame_275.png,0.9994930028915405,Gutteile,Gutteile,True
+opencv_frame_276 - Kopie (2).png,0.9915271401405334,Gutteile,Gutteile,True
+opencv_frame_276 - Kopie.png,0.9915271401405334,Gutteile,Gutteile,True
+opencv_frame_276.png,0.9915271401405334,Gutteile,Gutteile,True
+opencv_frame_277 - Kopie (2).png,0.9978711605072021,Gutteile,Gutteile,True
+opencv_frame_277 - Kopie.png,0.9978711605072021,Gutteile,Gutteile,True
+opencv_frame_277.png,0.9978711605072021,Gutteile,Gutteile,True
+opencv_frame_278 - Kopie (2).png,0.9989763498306274,Gutteile,Gutteile,True
+opencv_frame_278 - Kopie.png,0.9989763498306274,Gutteile,Gutteile,True
+opencv_frame_278.png,0.9989763498306274,Gutteile,Gutteile,True
+opencv_frame_279 - Kopie (2).png,0.9980981945991516,Gutteile,Gutteile,True
+opencv_frame_279 - Kopie.png,0.9980981945991516,Gutteile,Gutteile,True
+opencv_frame_279.png,0.9980981945991516,Gutteile,Gutteile,True
+opencv_frame_28 - Kopie (2).png,0.925952672958374,Gutteile,Gutteile,True
+opencv_frame_28 - Kopie.png,0.925952672958374,Gutteile,Gutteile,True
+opencv_frame_28.png,0.925952672958374,Gutteile,Gutteile,True
+opencv_frame_280 - Kopie (2).png,0.9464654922485352,Gutteile,Gutteile,True
+opencv_frame_280 - Kopie.png,0.9464654922485352,Gutteile,Gutteile,True
+opencv_frame_280.png,0.9464654922485352,Gutteile,Gutteile,True
+opencv_frame_281 - Kopie (2).png,0.9990890026092529,Gutteile,Gutteile,True
+opencv_frame_281 - Kopie.png,0.9990890026092529,Gutteile,Gutteile,True
+opencv_frame_281.png,0.9990890026092529,Gutteile,Gutteile,True
+opencv_frame_282 - Kopie (2).png,0.9995797276496887,Gutteile,Gutteile,True
+opencv_frame_282 - Kopie.png,0.9995797276496887,Gutteile,Gutteile,True
+opencv_frame_282.png,0.9995797276496887,Gutteile,Gutteile,True
+opencv_frame_283 - Kopie (2).png,0.9939980506896973,Gutteile,Gutteile,True
+opencv_frame_283 - Kopie.png,0.9939980506896973,Gutteile,Gutteile,True
+opencv_frame_283.png,0.9939980506896973,Gutteile,Gutteile,True
+opencv_frame_284 - Kopie (2).png,0.9916648268699646,Gutteile,Gutteile,True
+opencv_frame_284 - Kopie.png,0.9916648268699646,Gutteile,Gutteile,True
+opencv_frame_284.png,0.9916648268699646,Gutteile,Gutteile,True
+opencv_frame_285 - Kopie (2).png,0.9996232986450195,Gutteile,Gutteile,True
+opencv_frame_285 - Kopie.png,0.9996232986450195,Gutteile,Gutteile,True
+opencv_frame_285.png,0.9996232986450195,Gutteile,Gutteile,True
+opencv_frame_286 - Kopie (2).png,0.9943360686302185,Gutteile,Gutteile,True
+opencv_frame_286 - Kopie.png,0.9943360686302185,Gutteile,Gutteile,True
+opencv_frame_286.png,0.9943360686302185,Gutteile,Gutteile,True
+opencv_frame_287 - Kopie (2).png,0.9977860450744629,Gutteile,Gutteile,True
+opencv_frame_287 - Kopie.png,0.9977860450744629,Gutteile,Gutteile,True
+opencv_frame_287.png,0.9977860450744629,Gutteile,Gutteile,True
+opencv_frame_288 - Kopie (2).png,0.9916941523551941,Gutteile,Gutteile,True
+opencv_frame_288 - Kopie.png,0.9916941523551941,Gutteile,Gutteile,True
+opencv_frame_288.png,0.9916941523551941,Gutteile,Gutteile,True
+opencv_frame_289 - Kopie (2).png,0.9992438554763794,Gutteile,Gutteile,True
+opencv_frame_289 - Kopie.png,0.9992438554763794,Gutteile,Gutteile,True
+opencv_frame_289.png,0.9992438554763794,Gutteile,Gutteile,True
+opencv_frame_29 - Kopie (2).png,0.9965234398841858,Gutteile,Gutteile,True
+opencv_frame_29 - Kopie.png,0.9965234398841858,Gutteile,Gutteile,True
+opencv_frame_29.png,0.9965234398841858,Gutteile,Gutteile,True
+opencv_frame_290 - Kopie (2).png,0.9860674738883972,Gutteile,Gutteile,True
+opencv_frame_290 - Kopie.png,0.9860674738883972,Gutteile,Gutteile,True
+opencv_frame_290.png,0.9860674738883972,Gutteile,Gutteile,True
+opencv_frame_291 - Kopie (2).png,0.9840273857116699,Gutteile,Gutteile,True
+opencv_frame_291 - Kopie.png,0.9840273857116699,Gutteile,Gutteile,True
+opencv_frame_291.png,0.9840273857116699,Gutteile,Gutteile,True
+opencv_frame_292 - Kopie (2).png,0.9900205135345459,Gutteile,Gutteile,True
+opencv_frame_292 - Kopie.png,0.9900205135345459,Gutteile,Gutteile,True
+opencv_frame_292.png,0.9900205135345459,Gutteile,Gutteile,True
+opencv_frame_293 - Kopie (2).png,0.9437050223350525,Gutteile,Gutteile,True
+opencv_frame_293 - Kopie.png,0.9437050223350525,Gutteile,Gutteile,True
+opencv_frame_293.png,0.9437050223350525,Gutteile,Gutteile,True
+opencv_frame_294 - Kopie (2).png,0.940433144569397,Gutteile,Gutteile,True
+opencv_frame_294 - Kopie.png,0.940433144569397,Gutteile,Gutteile,True
+opencv_frame_294.png,0.940433144569397,Gutteile,Gutteile,True
+opencv_frame_295 - Kopie (2).png,0.9864528775215149,Gutteile,Gutteile,True
+opencv_frame_295 - Kopie.png,0.9864528775215149,Gutteile,Gutteile,True
+opencv_frame_295.png,0.9864528775215149,Gutteile,Gutteile,True
+opencv_frame_296 - Kopie (2).png,0.9351376295089722,Gutteile,Gutteile,True
+opencv_frame_296 - Kopie.png,0.9351376295089722,Gutteile,Gutteile,True
+opencv_frame_296.png,0.9351376295089722,Gutteile,Gutteile,True
+opencv_frame_297 - Kopie (2).png,0.990918755531311,Gutteile,Gutteile,True
+opencv_frame_297 - Kopie.png,0.990918755531311,Gutteile,Gutteile,True
+opencv_frame_297.png,0.990918755531311,Gutteile,Gutteile,True
+opencv_frame_298 - Kopie (2).png,0.9924677014350891,Gutteile,Gutteile,True
+opencv_frame_298 - Kopie.png,0.9924677014350891,Gutteile,Gutteile,True
+opencv_frame_298.png,0.9924677014350891,Gutteile,Gutteile,True
+opencv_frame_299 - Kopie (2).png,0.9086865186691284,Gutteile,Gutteile,True
+opencv_frame_299 - Kopie.png,0.9086865186691284,Gutteile,Gutteile,True
+opencv_frame_299.png,0.9086865186691284,Gutteile,Gutteile,True
+opencv_frame_3 - Kopie (2).png,0.9871086478233337,Gutteile,Gutteile,True
+opencv_frame_3 - Kopie.png,0.9871086478233337,Gutteile,Gutteile,True
+opencv_frame_3.png,0.9871086478233337,Gutteile,Gutteile,True
+opencv_frame_30 - Kopie (2).png,0.8762807846069336,Gutteile,Gutteile,True
+opencv_frame_30 - Kopie.png,0.8762807846069336,Gutteile,Gutteile,True
+opencv_frame_30.png,0.8762807846069336,Gutteile,Gutteile,True
+opencv_frame_300 - Kopie (2).png,0.9951596856117249,Gutteile,Gutteile,True
+opencv_frame_300 - Kopie.png,0.9951596856117249,Gutteile,Gutteile,True
+opencv_frame_300.png,0.9951596856117249,Gutteile,Gutteile,True
+opencv_frame_301 - Kopie (2).png,0.9728381037712097,Gutteile,Gutteile,True
+opencv_frame_301 - Kopie.png,0.9728381037712097,Gutteile,Gutteile,True
+opencv_frame_301.png,0.9728381037712097,Gutteile,Gutteile,True
+opencv_frame_302 - Kopie (2).png,0.9954258799552917,Gutteile,Gutteile,True
+opencv_frame_302 - Kopie.png,0.9954258799552917,Gutteile,Gutteile,True
+opencv_frame_302.png,0.9954258799552917,Gutteile,Gutteile,True
+opencv_frame_303 - Kopie (2).png,0.7826976180076599,Gutteile,Gutteile,True
+opencv_frame_303 - Kopie.png,0.7826976180076599,Gutteile,Gutteile,True
+opencv_frame_303.png,0.7826976180076599,Gutteile,Gutteile,True
+opencv_frame_304 - Kopie (2).png,0.997689962387085,Gutteile,Gutteile,True
+opencv_frame_304 - Kopie.png,0.997689962387085,Gutteile,Gutteile,True
+opencv_frame_304.png,0.997689962387085,Gutteile,Gutteile,True
+opencv_frame_305 - Kopie (2).png,0.9951761960983276,Gutteile,Gutteile,True
+opencv_frame_305 - Kopie.png,0.9951761960983276,Gutteile,Gutteile,True
+opencv_frame_305.png,0.9951761960983276,Gutteile,Gutteile,True
+opencv_frame_306 - Kopie (2).png,0.990446925163269,Gutteile,Gutteile,True
+opencv_frame_306 - Kopie.png,0.990446925163269,Gutteile,Gutteile,True
+opencv_frame_306.png,0.990446925163269,Gutteile,Gutteile,True
+opencv_frame_307 - Kopie (2).png,0.9668322801589966,Gutteile,Gutteile,True
+opencv_frame_307 - Kopie.png,0.9668322801589966,Gutteile,Gutteile,True
+opencv_frame_307.png,0.9668322801589966,Gutteile,Gutteile,True
+opencv_frame_308 - Kopie (2).png,0.9224655032157898,Gutteile,Gutteile,True
+opencv_frame_308 - Kopie.png,0.9224655032157898,Gutteile,Gutteile,True
+opencv_frame_308.png,0.9224655032157898,Gutteile,Gutteile,True
+opencv_frame_309 - Kopie (2).png,0.9936364889144897,Gutteile,Gutteile,True
+opencv_frame_309 - Kopie.png,0.9936364889144897,Gutteile,Gutteile,True
+opencv_frame_309.png,0.9936364889144897,Gutteile,Gutteile,True
+opencv_frame_31 - Kopie (2).png,0.9841341376304626,Gutteile,Gutteile,True
+opencv_frame_31 - Kopie.png,0.9841341376304626,Gutteile,Gutteile,True
+opencv_frame_31.png,0.9841341376304626,Gutteile,Gutteile,True
+opencv_frame_310 - Kopie (2).png,0.9889928698539734,Gutteile,Gutteile,True
+opencv_frame_310 - Kopie.png,0.9889928698539734,Gutteile,Gutteile,True
+opencv_frame_310.png,0.9889928698539734,Gutteile,Gutteile,True
+opencv_frame_311 - Kopie (2).png,0.9278067350387573,Gutteile,Gutteile,True
+opencv_frame_311 - Kopie.png,0.9278067350387573,Gutteile,Gutteile,True
+opencv_frame_311.png,0.9278067350387573,Gutteile,Gutteile,True
+opencv_frame_312 - Kopie (2).png,0.6311417818069458,Gutteile,Gutteile,True
+opencv_frame_312 - Kopie.png,0.6311417818069458,Gutteile,Gutteile,True
+opencv_frame_312.png,0.6311417818069458,Gutteile,Gutteile,True
+opencv_frame_313 - Kopie (2).png,0.9893296360969543,Gutteile,Gutteile,True
+opencv_frame_313 - Kopie.png,0.9893296360969543,Gutteile,Gutteile,True
+opencv_frame_313.png,0.9893296360969543,Gutteile,Gutteile,True
+opencv_frame_314 - Kopie (2).png,0.8712253570556641,Gutteile,Gutteile,True
+opencv_frame_314 - Kopie.png,0.8712253570556641,Gutteile,Gutteile,True
+opencv_frame_314.png,0.8712253570556641,Gutteile,Gutteile,True
+opencv_frame_315 - Kopie (2).png,0.9998379945755005,Gutteile,Gutteile,True
+opencv_frame_315 - Kopie.png,0.9998379945755005,Gutteile,Gutteile,True
+opencv_frame_315.png,0.9998379945755005,Gutteile,Gutteile,True
+opencv_frame_316 - Kopie (2).png,0.9257104992866516,Gutteile,Gutteile,True
+opencv_frame_316 - Kopie.png,0.9257104992866516,Gutteile,Gutteile,True
+opencv_frame_316.png,0.9257104992866516,Gutteile,Gutteile,True
+opencv_frame_317 - Kopie (2).png,0.9773128032684326,Gutteile,Gutteile,True
+opencv_frame_317 - Kopie.png,0.9773128032684326,Gutteile,Gutteile,True
+opencv_frame_317.png,0.9773128032684326,Gutteile,Gutteile,True
+opencv_frame_318 - Kopie (2).png,0.9881570935249329,Gutteile,Gutteile,True
+opencv_frame_318 - Kopie.png,0.9881570935249329,Gutteile,Gutteile,True
+opencv_frame_318.png,0.9881570935249329,Gutteile,Gutteile,True
+opencv_frame_319 - Kopie (2).png,0.9445730447769165,Gutteile,Gutteile,True
+opencv_frame_319 - Kopie.png,0.9445730447769165,Gutteile,Gutteile,True
+opencv_frame_319.png,0.9445730447769165,Gutteile,Gutteile,True
+opencv_frame_32 - Kopie (2).png,0.6547660231590271,Fehler,Gutteile,False
+opencv_frame_32 - Kopie.png,0.6547660231590271,Fehler,Gutteile,False
+opencv_frame_32.png,0.6547660231590271,Fehler,Gutteile,False
+opencv_frame_320 - Kopie (2).png,0.9881322979927063,Gutteile,Gutteile,True
+opencv_frame_320 - Kopie.png,0.9881322979927063,Gutteile,Gutteile,True
+opencv_frame_320.png,0.9881322979927063,Gutteile,Gutteile,True
+opencv_frame_321 - Kopie (2).png,0.9481463432312012,Gutteile,Gutteile,True
+opencv_frame_321 - Kopie.png,0.9481463432312012,Gutteile,Gutteile,True
+opencv_frame_321.png,0.9481463432312012,Gutteile,Gutteile,True
+opencv_frame_322 - Kopie (2).png,0.9787363409996033,Gutteile,Gutteile,True
+opencv_frame_322 - Kopie.png,0.9787363409996033,Gutteile,Gutteile,True
+opencv_frame_322.png,0.9787363409996033,Gutteile,Gutteile,True
+opencv_frame_323 - Kopie (2).png,0.9638083577156067,Gutteile,Gutteile,True
+opencv_frame_323 - Kopie.png,0.9638083577156067,Gutteile,Gutteile,True
+opencv_frame_323.png,0.9638083577156067,Gutteile,Gutteile,True
+opencv_frame_324 - Kopie (2).png,0.992647647857666,Gutteile,Gutteile,True
+opencv_frame_324 - Kopie.png,0.992647647857666,Gutteile,Gutteile,True
+opencv_frame_324.png,0.992647647857666,Gutteile,Gutteile,True
+opencv_frame_325 - Kopie (2).png,0.9917566776275635,Gutteile,Gutteile,True
+opencv_frame_325 - Kopie.png,0.9917566776275635,Gutteile,Gutteile,True
+opencv_frame_325.png,0.9917566776275635,Gutteile,Gutteile,True
+opencv_frame_326 - Kopie (2).png,0.967012345790863,Gutteile,Gutteile,True
+opencv_frame_326 - Kopie.png,0.967012345790863,Gutteile,Gutteile,True
+opencv_frame_326.png,0.967012345790863,Gutteile,Gutteile,True
+opencv_frame_327 - Kopie (2).png,0.9797351360321045,Gutteile,Gutteile,True
+opencv_frame_327 - Kopie.png,0.9797351360321045,Gutteile,Gutteile,True
+opencv_frame_327.png,0.9797351360321045,Gutteile,Gutteile,True
+opencv_frame_328 - Kopie (2).png,0.9929825067520142,Gutteile,Gutteile,True
+opencv_frame_328 - Kopie.png,0.9929825067520142,Gutteile,Gutteile,True
+opencv_frame_328.png,0.9929825067520142,Gutteile,Gutteile,True
+opencv_frame_329 - Kopie (2).png,0.9991169571876526,Gutteile,Gutteile,True
+opencv_frame_329 - Kopie.png,0.9991169571876526,Gutteile,Gutteile,True
+opencv_frame_329.png,0.9991169571876526,Gutteile,Gutteile,True
+opencv_frame_33 - Kopie (2).png,0.7868730425834656,Gutteile,Gutteile,True
+opencv_frame_33 - Kopie.png,0.7868730425834656,Gutteile,Gutteile,True
+opencv_frame_33.png,0.7868730425834656,Gutteile,Gutteile,True
+opencv_frame_330 - Kopie (2).png,0.9721143245697021,Gutteile,Gutteile,True
+opencv_frame_330 - Kopie.png,0.9721143245697021,Gutteile,Gutteile,True
+opencv_frame_330.png,0.9721143245697021,Gutteile,Gutteile,True
+opencv_frame_331 - Kopie (2).png,0.9782264828681946,Gutteile,Gutteile,True
+opencv_frame_331 - Kopie.png,0.9782264828681946,Gutteile,Gutteile,True
+opencv_frame_331.png,0.9782264828681946,Gutteile,Gutteile,True
+opencv_frame_332 - Kopie (2).png,0.9682811498641968,Gutteile,Gutteile,True
+opencv_frame_332 - Kopie.png,0.9682811498641968,Gutteile,Gutteile,True
+opencv_frame_332.png,0.9682811498641968,Gutteile,Gutteile,True
+opencv_frame_333 - Kopie (2).png,0.9576495885848999,Gutteile,Gutteile,True
+opencv_frame_333 - Kopie.png,0.9576495885848999,Gutteile,Gutteile,True
+opencv_frame_333.png,0.9576495885848999,Gutteile,Gutteile,True
+opencv_frame_334 - Kopie (2).png,0.994026780128479,Gutteile,Gutteile,True
+opencv_frame_334 - Kopie.png,0.994026780128479,Gutteile,Gutteile,True
+opencv_frame_334.png,0.994026780128479,Gutteile,Gutteile,True
+opencv_frame_335 - Kopie (2).png,0.9989200830459595,Gutteile,Gutteile,True
+opencv_frame_335 - Kopie.png,0.9989200830459595,Gutteile,Gutteile,True
+opencv_frame_335.png,0.9989200830459595,Gutteile,Gutteile,True
+opencv_frame_336 - Kopie (2).png,0.9969415068626404,Gutteile,Gutteile,True
+opencv_frame_336 - Kopie.png,0.9969415068626404,Gutteile,Gutteile,True
+opencv_frame_336.png,0.9969415068626404,Gutteile,Gutteile,True
+opencv_frame_337 - Kopie (2).png,0.9982213377952576,Gutteile,Gutteile,True
+opencv_frame_337 - Kopie.png,0.9982213377952576,Gutteile,Gutteile,True
+opencv_frame_337.png,0.9982213377952576,Gutteile,Gutteile,True
+opencv_frame_338 - Kopie (2).png,0.9982629418373108,Gutteile,Gutteile,True
+opencv_frame_338 - Kopie.png,0.9982629418373108,Gutteile,Gutteile,True
+opencv_frame_338.png,0.9982629418373108,Gutteile,Gutteile,True
+opencv_frame_339 - Kopie (2).png,0.9983739852905273,Gutteile,Gutteile,True
+opencv_frame_339 - Kopie.png,0.9983739852905273,Gutteile,Gutteile,True
+opencv_frame_339.png,0.9983739852905273,Gutteile,Gutteile,True
+opencv_frame_34 - Kopie (2).png,0.7661882042884827,Fehler,Gutteile,False
+opencv_frame_34 - Kopie.png,0.7661882042884827,Fehler,Gutteile,False
+opencv_frame_34.png,0.7661882042884827,Fehler,Gutteile,False
+opencv_frame_340 - Kopie (2).png,0.8583853840827942,Gutteile,Gutteile,True
+opencv_frame_340 - Kopie.png,0.8583853840827942,Gutteile,Gutteile,True
+opencv_frame_340.png,0.8583853840827942,Gutteile,Gutteile,True
+opencv_frame_341 - Kopie (2).png,0.9982795715332031,Gutteile,Gutteile,True
+opencv_frame_341 - Kopie.png,0.9982795715332031,Gutteile,Gutteile,True
+opencv_frame_341.png,0.9982795715332031,Gutteile,Gutteile,True
+opencv_frame_342 - Kopie (2).png,0.9978255033493042,Gutteile,Gutteile,True
+opencv_frame_342 - Kopie.png,0.9978255033493042,Gutteile,Gutteile,True
+opencv_frame_342.png,0.9978255033493042,Gutteile,Gutteile,True
+opencv_frame_343 - Kopie (2).png,0.9994229078292847,Gutteile,Gutteile,True
+opencv_frame_343 - Kopie.png,0.9994229078292847,Gutteile,Gutteile,True
+opencv_frame_343.png,0.9994229078292847,Gutteile,Gutteile,True
+opencv_frame_344 - Kopie (2).png,0.9995335340499878,Gutteile,Gutteile,True
+opencv_frame_344 - Kopie.png,0.9995335340499878,Gutteile,Gutteile,True
+opencv_frame_344.png,0.9995335340499878,Gutteile,Gutteile,True
+opencv_frame_345 - Kopie (2).png,0.988987386226654,Gutteile,Gutteile,True
+opencv_frame_345 - Kopie.png,0.988987386226654,Gutteile,Gutteile,True
+opencv_frame_345.png,0.988987386226654,Gutteile,Gutteile,True
+opencv_frame_346 - Kopie (2).png,0.9868195056915283,Gutteile,Gutteile,True
+opencv_frame_346 - Kopie.png,0.9868195056915283,Gutteile,Gutteile,True
+opencv_frame_346.png,0.9868195056915283,Gutteile,Gutteile,True
+opencv_frame_347 - Kopie (2).png,0.9882676005363464,Gutteile,Gutteile,True
+opencv_frame_347 - Kopie.png,0.9882676005363464,Gutteile,Gutteile,True
+opencv_frame_347.png,0.9882676005363464,Gutteile,Gutteile,True
+opencv_frame_348 - Kopie (2).png,0.9857903718948364,Gutteile,Gutteile,True
+opencv_frame_348 - Kopie.png,0.9857903718948364,Gutteile,Gutteile,True
+opencv_frame_348.png,0.9857903718948364,Gutteile,Gutteile,True
+opencv_frame_349 - Kopie (2).png,0.992659866809845,Gutteile,Gutteile,True
+opencv_frame_349 - Kopie.png,0.992659866809845,Gutteile,Gutteile,True
+opencv_frame_349.png,0.992659866809845,Gutteile,Gutteile,True
+opencv_frame_35 - Kopie (2).png,0.6452834010124207,Gutteile,Gutteile,True
+opencv_frame_35 - Kopie.png,0.6452834010124207,Gutteile,Gutteile,True
+opencv_frame_35.png,0.6452834010124207,Gutteile,Gutteile,True
+opencv_frame_350 - Kopie (2).png,0.9804564714431763,Gutteile,Gutteile,True
+opencv_frame_350 - Kopie.png,0.9804564714431763,Gutteile,Gutteile,True
+opencv_frame_350.png,0.9804564714431763,Gutteile,Gutteile,True
+opencv_frame_351 - Kopie (2).png,0.9937480688095093,Gutteile,Gutteile,True
+opencv_frame_351 - Kopie.png,0.9937480688095093,Gutteile,Gutteile,True
+opencv_frame_351.png,0.9937480688095093,Gutteile,Gutteile,True
+opencv_frame_352 - Kopie (2).png,0.9975749850273132,Gutteile,Gutteile,True
+opencv_frame_352 - Kopie.png,0.9975749850273132,Gutteile,Gutteile,True
+opencv_frame_352.png,0.9975749850273132,Gutteile,Gutteile,True
+opencv_frame_353 - Kopie (2).png,0.9996896982192993,Gutteile,Gutteile,True
+opencv_frame_353 - Kopie.png,0.9996896982192993,Gutteile,Gutteile,True
+opencv_frame_353.png,0.9996896982192993,Gutteile,Gutteile,True
+opencv_frame_354 - Kopie (2).png,0.9999916553497314,Gutteile,Gutteile,True
+opencv_frame_354 - Kopie.png,0.9999916553497314,Gutteile,Gutteile,True
+opencv_frame_354.png,0.9999916553497314,Gutteile,Gutteile,True
+opencv_frame_355 - Kopie (2).png,0.9998051524162292,Gutteile,Gutteile,True
+opencv_frame_355 - Kopie.png,0.9998051524162292,Gutteile,Gutteile,True
+opencv_frame_355.png,0.9998051524162292,Gutteile,Gutteile,True
+opencv_frame_356 - Kopie (2).png,0.9954494833946228,Gutteile,Gutteile,True
+opencv_frame_356 - Kopie.png,0.9954494833946228,Gutteile,Gutteile,True
+opencv_frame_356.png,0.9954494833946228,Gutteile,Gutteile,True
+opencv_frame_357 - Kopie (2).png,0.9932812452316284,Gutteile,Gutteile,True
+opencv_frame_357 - Kopie.png,0.9932812452316284,Gutteile,Gutteile,True
+opencv_frame_357.png,0.9932812452316284,Gutteile,Gutteile,True
+opencv_frame_358 - Kopie (2).png,0.9894629120826721,Gutteile,Gutteile,True
+opencv_frame_358 - Kopie.png,0.9894629120826721,Gutteile,Gutteile,True
+opencv_frame_358.png,0.9894629120826721,Gutteile,Gutteile,True
+opencv_frame_359 - Kopie (2).png,0.9999028444290161,Gutteile,Gutteile,True
+opencv_frame_359 - Kopie.png,0.9999028444290161,Gutteile,Gutteile,True
+opencv_frame_359.png,0.9999028444290161,Gutteile,Gutteile,True
+opencv_frame_36 - Kopie (2).png,0.8383727073669434,Gutteile,Gutteile,True
+opencv_frame_36 - Kopie.png,0.8383727073669434,Gutteile,Gutteile,True
+opencv_frame_36.png,0.8383727073669434,Gutteile,Gutteile,True
+opencv_frame_37 - Kopie (2).png,0.7437323927879333,Gutteile,Gutteile,True
+opencv_frame_37 - Kopie.png,0.7437323927879333,Gutteile,Gutteile,True
+opencv_frame_37.png,0.7437323927879333,Gutteile,Gutteile,True
+opencv_frame_38 - Kopie (2).png,0.810600996017456,Gutteile,Gutteile,True
+opencv_frame_38 - Kopie.png,0.810600996017456,Gutteile,Gutteile,True
+opencv_frame_38.png,0.810600996017456,Gutteile,Gutteile,True
+opencv_frame_39 - Kopie (2).png,0.7224238514900208,Gutteile,Gutteile,True
+opencv_frame_39 - Kopie.png,0.7224238514900208,Gutteile,Gutteile,True
+opencv_frame_39.png,0.7224238514900208,Gutteile,Gutteile,True
+opencv_frame_4 - Kopie (2).png,0.7689763903617859,Gutteile,Gutteile,True
+opencv_frame_4 - Kopie.png,0.7689763903617859,Gutteile,Gutteile,True
+opencv_frame_4.png,0.7689763903617859,Gutteile,Gutteile,True
+opencv_frame_40 - Kopie (2).png,0.9663265347480774,Gutteile,Gutteile,True
+opencv_frame_40 - Kopie.png,0.9663265347480774,Gutteile,Gutteile,True
+opencv_frame_40.png,0.9663265347480774,Gutteile,Gutteile,True
+opencv_frame_41 - Kopie (2).png,0.9744558334350586,Gutteile,Gutteile,True
+opencv_frame_41 - Kopie.png,0.9744558334350586,Gutteile,Gutteile,True
+opencv_frame_41.png,0.9744558334350586,Gutteile,Gutteile,True
+opencv_frame_42 - Kopie (2).png,0.6150586605072021,Fehler,Gutteile,False
+opencv_frame_42 - Kopie.png,0.6150586605072021,Fehler,Gutteile,False
+opencv_frame_42.png,0.6150586605072021,Fehler,Gutteile,False
+opencv_frame_43 - Kopie (2).png,0.955998957157135,Gutteile,Gutteile,True
+opencv_frame_43 - Kopie.png,0.955998957157135,Gutteile,Gutteile,True
+opencv_frame_43.png,0.955998957157135,Gutteile,Gutteile,True
+opencv_frame_44 - Kopie (2).png,0.9795264601707458,Gutteile,Gutteile,True
+opencv_frame_44 - Kopie.png,0.9795264601707458,Gutteile,Gutteile,True
+opencv_frame_44.png,0.9795264601707458,Gutteile,Gutteile,True
+opencv_frame_45 - Kopie (2).png,0.9812859296798706,Gutteile,Gutteile,True
+opencv_frame_45 - Kopie.png,0.9812859296798706,Gutteile,Gutteile,True
+opencv_frame_45.png,0.9812859296798706,Gutteile,Gutteile,True
+opencv_frame_46 - Kopie (2).png,0.8021724224090576,Gutteile,Gutteile,True
+opencv_frame_46 - Kopie.png,0.8021724224090576,Gutteile,Gutteile,True
+opencv_frame_46.png,0.8021724224090576,Gutteile,Gutteile,True
+opencv_frame_47 - Kopie (2).png,0.7426239848136902,Gutteile,Gutteile,True
+opencv_frame_47 - Kopie.png,0.7426239848136902,Gutteile,Gutteile,True
+opencv_frame_47.png,0.7426239848136902,Gutteile,Gutteile,True
+opencv_frame_48 - Kopie (2).png,0.8973959684371948,Gutteile,Gutteile,True
+opencv_frame_48 - Kopie.png,0.8973959684371948,Gutteile,Gutteile,True
+opencv_frame_48.png,0.8973959684371948,Gutteile,Gutteile,True
+opencv_frame_49 - Kopie (2).png,0.8728404641151428,Gutteile,Gutteile,True
+opencv_frame_49 - Kopie.png,0.8728404641151428,Gutteile,Gutteile,True
+opencv_frame_49.png,0.8728404641151428,Gutteile,Gutteile,True
+opencv_frame_5 - Kopie (2).png,0.949457585811615,Gutteile,Gutteile,True
+opencv_frame_5 - Kopie.png,0.949457585811615,Gutteile,Gutteile,True
+opencv_frame_5.png,0.949457585811615,Gutteile,Gutteile,True
+opencv_frame_50 - Kopie (2).png,0.9688668251037598,Gutteile,Gutteile,True
+opencv_frame_50 - Kopie.png,0.9688668251037598,Gutteile,Gutteile,True
+opencv_frame_50.png,0.9688668251037598,Gutteile,Gutteile,True
+opencv_frame_51 - Kopie (2).png,0.9905737042427063,Gutteile,Gutteile,True
+opencv_frame_51 - Kopie.png,0.9905737042427063,Gutteile,Gutteile,True
+opencv_frame_51.png,0.9905737042427063,Gutteile,Gutteile,True
+opencv_frame_52 - Kopie (2).png,0.9351081252098083,Gutteile,Gutteile,True
+opencv_frame_52 - Kopie.png,0.9351081252098083,Gutteile,Gutteile,True
+opencv_frame_52.png,0.9351081252098083,Gutteile,Gutteile,True
+opencv_frame_53 - Kopie (2).png,0.8410971760749817,Gutteile,Gutteile,True
+opencv_frame_53 - Kopie.png,0.8410971760749817,Gutteile,Gutteile,True
+opencv_frame_53.png,0.8410971760749817,Gutteile,Gutteile,True
+opencv_frame_54 - Kopie (2).png,0.8462336659431458,Gutteile,Gutteile,True
+opencv_frame_54 - Kopie.png,0.8462336659431458,Gutteile,Gutteile,True
+opencv_frame_54.png,0.8462336659431458,Gutteile,Gutteile,True
+opencv_frame_55 - Kopie (2).png,0.7440107464790344,Gutteile,Gutteile,True
+opencv_frame_55 - Kopie.png,0.7440107464790344,Gutteile,Gutteile,True
+opencv_frame_55.png,0.7440107464790344,Gutteile,Gutteile,True
+opencv_frame_56 - Kopie (2).png,0.9643235206604004,Gutteile,Gutteile,True
+opencv_frame_56 - Kopie.png,0.9643235206604004,Gutteile,Gutteile,True
+opencv_frame_56.png,0.9643235206604004,Gutteile,Gutteile,True
+opencv_frame_57 - Kopie (2).png,0.9802175760269165,Gutteile,Gutteile,True
+opencv_frame_57 - Kopie.png,0.9802175760269165,Gutteile,Gutteile,True
+opencv_frame_57.png,0.9802175760269165,Gutteile,Gutteile,True
+opencv_frame_58 - Kopie (2).png,0.9980151653289795,Gutteile,Gutteile,True
+opencv_frame_58 - Kopie.png,0.9980151653289795,Gutteile,Gutteile,True
+opencv_frame_58.png,0.9980151653289795,Gutteile,Gutteile,True
+opencv_frame_59 - Kopie (2).png,0.9694288969039917,Gutteile,Gutteile,True
+opencv_frame_59 - Kopie.png,0.9694288969039917,Gutteile,Gutteile,True
+opencv_frame_59.png,0.9694288969039917,Gutteile,Gutteile,True
+opencv_frame_6 - Kopie (2).png,0.9459084868431091,Gutteile,Gutteile,True
+opencv_frame_6 - Kopie.png,0.9459084868431091,Gutteile,Gutteile,True
+opencv_frame_6.png,0.9459084868431091,Gutteile,Gutteile,True
+opencv_frame_60 - Kopie (2).png,0.9930376410484314,Gutteile,Gutteile,True
+opencv_frame_60 - Kopie.png,0.9930376410484314,Gutteile,Gutteile,True
+opencv_frame_60.png,0.9930376410484314,Gutteile,Gutteile,True
+opencv_frame_61 - Kopie (2).png,0.9950087070465088,Gutteile,Gutteile,True
+opencv_frame_61 - Kopie.png,0.9950087070465088,Gutteile,Gutteile,True
+opencv_frame_61.png,0.9950087070465088,Gutteile,Gutteile,True
+opencv_frame_62 - Kopie (2).png,0.9908864498138428,Gutteile,Gutteile,True
+opencv_frame_62 - Kopie.png,0.9908864498138428,Gutteile,Gutteile,True
+opencv_frame_62.png,0.9908864498138428,Gutteile,Gutteile,True
+opencv_frame_63 - Kopie (2).png,0.9476686120033264,Gutteile,Gutteile,True
+opencv_frame_63 - Kopie.png,0.9476686120033264,Gutteile,Gutteile,True
+opencv_frame_63.png,0.9476686120033264,Gutteile,Gutteile,True
+opencv_frame_64 - Kopie (2).png,0.9947848916053772,Gutteile,Gutteile,True
+opencv_frame_64 - Kopie.png,0.9947848916053772,Gutteile,Gutteile,True
+opencv_frame_64.png,0.9947848916053772,Gutteile,Gutteile,True
+opencv_frame_65 - Kopie (2).png,0.9996733665466309,Gutteile,Gutteile,True
+opencv_frame_65 - Kopie.png,0.9996733665466309,Gutteile,Gutteile,True
+opencv_frame_65.png,0.9996733665466309,Gutteile,Gutteile,True
+opencv_frame_66 - Kopie (2).png,0.5770778059959412,Gutteile,Gutteile,True
+opencv_frame_66 - Kopie.png,0.5770778059959412,Gutteile,Gutteile,True
+opencv_frame_66.png,0.5770778059959412,Gutteile,Gutteile,True
+opencv_frame_67 - Kopie (2).png,0.8850646018981934,Gutteile,Gutteile,True
+opencv_frame_67 - Kopie.png,0.8850646018981934,Gutteile,Gutteile,True
+opencv_frame_67.png,0.8850646018981934,Gutteile,Gutteile,True
+opencv_frame_68 - Kopie (2).png,0.9623576402664185,Gutteile,Gutteile,True
+opencv_frame_68 - Kopie.png,0.9623576402664185,Gutteile,Gutteile,True
+opencv_frame_68.png,0.9623576402664185,Gutteile,Gutteile,True
+opencv_frame_69 - Kopie (2).png,0.9652333855628967,Gutteile,Gutteile,True
+opencv_frame_69 - Kopie.png,0.9652333855628967,Gutteile,Gutteile,True
+opencv_frame_69.png,0.9652333855628967,Gutteile,Gutteile,True
+opencv_frame_7 - Kopie (2).png,0.9893452525138855,Gutteile,Gutteile,True
+opencv_frame_7 - Kopie.png,0.9893452525138855,Gutteile,Gutteile,True
+opencv_frame_7.png,0.9893452525138855,Gutteile,Gutteile,True
+opencv_frame_70 - Kopie (2).png,0.9309669733047485,Gutteile,Gutteile,True
+opencv_frame_70 - Kopie.png,0.9309669733047485,Gutteile,Gutteile,True
+opencv_frame_70.png,0.9309669733047485,Gutteile,Gutteile,True
+opencv_frame_71 - Kopie (2).png,0.9835704565048218,Gutteile,Gutteile,True
+opencv_frame_71 - Kopie.png,0.9835704565048218,Gutteile,Gutteile,True
+opencv_frame_71.png,0.9835704565048218,Gutteile,Gutteile,True
+opencv_frame_72 - Kopie (2).png,0.8804145455360413,Gutteile,Gutteile,True
+opencv_frame_72 - Kopie.png,0.8804145455360413,Gutteile,Gutteile,True
+opencv_frame_72.png,0.8804145455360413,Gutteile,Gutteile,True
+opencv_frame_73 - Kopie (2).png,0.9956830739974976,Gutteile,Gutteile,True
+opencv_frame_73 - Kopie.png,0.9956830739974976,Gutteile,Gutteile,True
+opencv_frame_73.png,0.9956830739974976,Gutteile,Gutteile,True
+opencv_frame_74 - Kopie (2).png,0.9987429976463318,Gutteile,Gutteile,True
+opencv_frame_74 - Kopie.png,0.9987429976463318,Gutteile,Gutteile,True
+opencv_frame_74.png,0.9987429976463318,Gutteile,Gutteile,True
+opencv_frame_75 - Kopie (2).png,0.9760981798171997,Gutteile,Gutteile,True
+opencv_frame_75 - Kopie.png,0.9760981798171997,Gutteile,Gutteile,True
+opencv_frame_75.png,0.9760981798171997,Gutteile,Gutteile,True
+opencv_frame_76 - Kopie (2).png,0.9415503144264221,Gutteile,Gutteile,True
+opencv_frame_76 - Kopie.png,0.9415503144264221,Gutteile,Gutteile,True
+opencv_frame_76.png,0.9415503144264221,Gutteile,Gutteile,True
+opencv_frame_77 - Kopie (2).png,0.9946117401123047,Gutteile,Gutteile,True
+opencv_frame_77 - Kopie.png,0.9946117401123047,Gutteile,Gutteile,True
+opencv_frame_77.png,0.9946117401123047,Gutteile,Gutteile,True
+opencv_frame_78 - Kopie (2).png,0.9935193657875061,Gutteile,Gutteile,True
+opencv_frame_78 - Kopie.png,0.9935193657875061,Gutteile,Gutteile,True
+opencv_frame_78.png,0.9935193657875061,Gutteile,Gutteile,True
+opencv_frame_79 - Kopie (2).png,0.8636859059333801,Gutteile,Gutteile,True
+opencv_frame_79 - Kopie.png,0.8636859059333801,Gutteile,Gutteile,True
+opencv_frame_79.png,0.8636859059333801,Gutteile,Gutteile,True
+opencv_frame_8 - Kopie (2).png,0.988466739654541,Gutteile,Gutteile,True
+opencv_frame_8 - Kopie.png,0.988466739654541,Gutteile,Gutteile,True
+opencv_frame_8.png,0.988466739654541,Gutteile,Gutteile,True
+opencv_frame_80 - Kopie (2).png,0.9606343507766724,Gutteile,Gutteile,True
+opencv_frame_80 - Kopie.png,0.9606343507766724,Gutteile,Gutteile,True
+opencv_frame_80.png,0.9606343507766724,Gutteile,Gutteile,True
+opencv_frame_81 - Kopie (2).png,0.9947159886360168,Gutteile,Gutteile,True
+opencv_frame_81 - Kopie.png,0.9947159886360168,Gutteile,Gutteile,True
+opencv_frame_81.png,0.9947159886360168,Gutteile,Gutteile,True
+opencv_frame_82 - Kopie (2).png,0.9807969331741333,Gutteile,Gutteile,True
+opencv_frame_82 - Kopie.png,0.9807969331741333,Gutteile,Gutteile,True
+opencv_frame_82.png,0.9807969331741333,Gutteile,Gutteile,True
+opencv_frame_83 - Kopie (2).png,0.9595175385475159,Gutteile,Gutteile,True
+opencv_frame_83 - Kopie.png,0.9595175385475159,Gutteile,Gutteile,True
+opencv_frame_83.png,0.9595175385475159,Gutteile,Gutteile,True
+opencv_frame_84 - Kopie (2).png,0.8385550379753113,Gutteile,Gutteile,True
+opencv_frame_84 - Kopie.png,0.8385550379753113,Gutteile,Gutteile,True
+opencv_frame_84.png,0.8385550379753113,Gutteile,Gutteile,True
+opencv_frame_85 - Kopie (2).png,0.9982619881629944,Gutteile,Gutteile,True
+opencv_frame_85 - Kopie.png,0.9982619881629944,Gutteile,Gutteile,True
+opencv_frame_85.png,0.9982619881629944,Gutteile,Gutteile,True
+opencv_frame_86 - Kopie (2).png,0.9907676577568054,Gutteile,Gutteile,True
+opencv_frame_86 - Kopie.png,0.9907676577568054,Gutteile,Gutteile,True
+opencv_frame_86.png,0.9907676577568054,Gutteile,Gutteile,True
+opencv_frame_87 - Kopie (2).png,0.9836586117744446,Gutteile,Gutteile,True
+opencv_frame_87 - Kopie.png,0.9836586117744446,Gutteile,Gutteile,True
+opencv_frame_87.png,0.9836586117744446,Gutteile,Gutteile,True
+opencv_frame_88 - Kopie (2).png,0.99326491355896,Gutteile,Gutteile,True
+opencv_frame_88 - Kopie.png,0.99326491355896,Gutteile,Gutteile,True
+opencv_frame_88.png,0.99326491355896,Gutteile,Gutteile,True
+opencv_frame_89 - Kopie (2).png,0.9738529920578003,Gutteile,Gutteile,True
+opencv_frame_89 - Kopie.png,0.9738529920578003,Gutteile,Gutteile,True
+opencv_frame_89.png,0.9738529920578003,Gutteile,Gutteile,True
+opencv_frame_9 - Kopie (2).png,0.6481161117553711,Fehler,Gutteile,False
+opencv_frame_9 - Kopie.png,0.6481161117553711,Fehler,Gutteile,False
+opencv_frame_9.png,0.6481161117553711,Fehler,Gutteile,False
+opencv_frame_90 - Kopie (2).png,0.9990390539169312,Gutteile,Gutteile,True
+opencv_frame_90 - Kopie.png,0.9990390539169312,Gutteile,Gutteile,True
+opencv_frame_90.png,0.9990390539169312,Gutteile,Gutteile,True
+opencv_frame_91 - Kopie (2).png,0.9978184700012207,Gutteile,Gutteile,True
+opencv_frame_91 - Kopie.png,0.9978184700012207,Gutteile,Gutteile,True
+opencv_frame_91.png,0.9978184700012207,Gutteile,Gutteile,True
+opencv_frame_93 - Kopie (2).png,0.9873334169387817,Gutteile,Gutteile,True
+opencv_frame_93 - Kopie.png,0.9873334169387817,Gutteile,Gutteile,True
+opencv_frame_93.png,0.9873334169387817,Gutteile,Gutteile,True
+opencv_frame_94 - Kopie (2).png,0.9479753971099854,Gutteile,Gutteile,True
+opencv_frame_94 - Kopie.png,0.9479753971099854,Gutteile,Gutteile,True
+opencv_frame_94.png,0.9479753971099854,Gutteile,Gutteile,True
+opencv_frame_95 - Kopie (2).png,0.9863170981407166,Gutteile,Gutteile,True
+opencv_frame_95 - Kopie.png,0.9863170981407166,Gutteile,Gutteile,True
+opencv_frame_95.png,0.9863170981407166,Gutteile,Gutteile,True
+opencv_frame_96 - Kopie (2).png,0.9365088939666748,Gutteile,Gutteile,True
+opencv_frame_96 - Kopie.png,0.9365088939666748,Gutteile,Gutteile,True
+opencv_frame_96.png,0.9365088939666748,Gutteile,Gutteile,True
+opencv_frame_97 - Kopie (2).png,0.9867488145828247,Gutteile,Gutteile,True
+opencv_frame_97 - Kopie.png,0.9867488145828247,Gutteile,Gutteile,True
+opencv_frame_97.png,0.9867488145828247,Gutteile,Gutteile,True
+opencv_frame_98 - Kopie (2).png,0.9576912522315979,Gutteile,Gutteile,True
+opencv_frame_98 - Kopie.png,0.9576912522315979,Gutteile,Gutteile,True
+opencv_frame_98.png,0.9576912522315979,Gutteile,Gutteile,True
+opencv_frame_99 - Kopie (2).png,0.7935712933540344,Gutteile,Gutteile,True
+opencv_frame_99 - Kopie.png,0.7935712933540344,Gutteile,Gutteile,True
+opencv_frame_99.png,0.7935712933540344,Gutteile,Gutteile,True
