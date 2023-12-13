@@ -19,7 +19,7 @@ This is the result on 20% shuffled images of these 2 classes.
 
 ## F1 Score
 <img src="F1.png" width="" alt=""/>
-These are the F1 scores calculated on ALL images of these 2 classes. The inferences results of every image will be saved in `output.csv`
+These are the F1 scores calculated on ALL images of these 2 classes. The inferences results of every image will be saved in output.csv.
 
 ## Training
 Run `train.py` under the root folder of this repo with the path of the `images` folder, accelerator, batch_size, test_split, num_workers, img_size and backbone.  
