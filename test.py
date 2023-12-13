@@ -1,76 +1,40 @@
 import torch
-from torchvision import transforms
-from torchvision.datasets import ImageFolder
-from torch.utils.data import DataLoader
-from train import AutoEncoder
 import argparse
-import matplotlib.pyplot as plt
-import csv
+from train import Backbone, DataModule  # 从train.py导入Backbone和DataModule类
+from pytorch_lightning import Trainer
+from sklearn.metrics import f1_score
+import numpy as np
 
-# Load pre-trained model
-model = AutoEncoder()
-model.load_state_dict(torch.load("weights.pth"))
-model.eval()
+def load_model(weight_path, num_classes=2):
+    model = Backbone(num_classes)
+    model.load_state_dict(torch.load(weight_path))
+    return model
 
-# If you have a GPU available, move the model to GPU for faster computation
-if torch.cuda.is_available():
-    model = model.cuda()
+def test_model(model, data_module):
+    trainer = Trainer()
+    results = trainer.test(model, datamodule=data_module)
+    return results
 
-parser = argparse.ArgumentParser(description='Process images from given path')
-parser.add_argument('--data_path', type=str, required=True, help='Path to the image folder')
-args = parser.parse_args()
+def calculate_f1(results):
+    all_preds = np.concatenate([result['preds'] for result in results])
+    all_targets = np.concatenate([result['targets'] for result in results])
+    f1 = f1_score(all_targets, all_preds, average='weighted')
+    return f1
 
-# Data loader
-transform = transforms.Compose([
-        transforms.Resize((640, 480)),
-        transforms.ToTensor(),
-        ])
+def main():
+    parser = argparse.ArgumentParser(description='测试模型并获取F1分数')
+    parser.add_argument("--data_path", type=str, required=True, help="数据集路径")
+    parser.add_argument("--weight_path", type=str, required=True, help="模型权重文件路径")
+    args = parser.parse_args()
 
-full_dataset = ImageFolder(root=args.data_path, transform=transform)
+    data_module = DataModule(data_dir=args.data_path)
 
-# Get the index of the class
-classes_idx = full_dataset.class_to_idx[args.classes]
-
-# Filter the dataset to only have images from the class
-dataset = torch.utils.data.Subset(full_dataset, 
-                [i for i, (_, label) in enumerate(full_dataset.samples) if label == classes_idx])
-
-dataloader = DataLoader(dataset, batch_size=128, shuffle=False)
-
-def ae_loss(y_true, y_pred):
-    return torch.mean((y_true - y_pred)**2)
-
-losses = []
-
-for idx, (imgs, _) in enumerate(dataloader):
-    if torch.cuda.is_available():
-        imgs = imgs.cuda()
+    model = load_model(args.weight_path)
+    results = test_model(model, data_module)
+    f1 = calculate_f1(results)
     
-    with torch.no_grad():
-        reconstructions = model(imgs)
+    print(f"F1 Score: {f1}")
 
-    for i, img in enumerate(imgs):
-        loss = ae_loss(img.unsqueeze(0), reconstructions[i].unsqueeze(0)).item()
+if __name__ == '__main__':
+    main()
 
-        img_idx = idx * dataloader.batch_size + i
-        img_name = full_dataset.samples[img_idx][0].split("/")[-1]
-        losses.append((img_name, loss))
-
-# Save losses to a CSV file
-csv_filename = f"reconstruction_losses_{args.classes}.csv"
-with open(csv_filename, "w", newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["ImageName", "Loss"])
-    writer.writerows(losses)
-
-print(f"Losses saved to {csv_filename}")
-
-# Create a box plot for losses
-loss_values = [loss for _, loss in losses]
-plt.boxplot(loss_values)
-plt.title(f"Boxplot for {args.classes} losses")
-plt.ylabel('Loss Value')
-plt.savefig(f"boxplot_{args.classes}.png")
-plt.show()
-
-print(f"Boxplot saved to boxplot_{args.classes}.png")

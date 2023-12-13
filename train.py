@@ -15,18 +15,22 @@ class CustomProgressBar(ProgressBar):
         return bar
 
 class Backbone(pl.LightningModule):
-    def __init__(self, num_classes=2):
+    def __init__(self, backbone_name='resnet18', num_classes=2):
         super(Backbone, self).__init__()
 
-        # Backbone
-        self.features = models.resnet18(pretrained=True)
-        
+        # parser for choosing the backbone added
+        if hasattr(models, backbone_name):
+            self.features = getattr(models, backbone_name)(pretrained=True)
+        else:
+            raise ValueError(f"Model {backbone_name} not found in torchvision.models")
+
         for param in self.features.parameters():
             param.requires_grad = False
         
         in_features = self.features.fc.in_features
         self.features.fc = nn.Linear(in_features, num_classes)
-        # Loss function.
+        
+        # adopted loss function CrossEntropyLoss
         self.loss_fn = nn.CrossEntropyLoss()
 
     def forward(self, x):
@@ -92,20 +96,28 @@ class DataModule(pl.LightningDataModule):
         self.train_dataset, self.test_dataset = random_split(self.dataset, [train_size, test_size])
 
     def train_dataloader(self):
-        return DataLoader(self.train_dataset, batch_size=self.batch_size, shuffle=True)
+        return DataLoader(self.train_dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
     def test_dataloader(self):
-        return DataLoader(self.test_dataset, batch_size=self.batch_size, shuffle=False)
+        return DataLoader(self.test_dataset, batch_size=self.batch_size, shuffle=False, num_workers=self.num_workers)
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Encoder-Decoder with Command Line Argument for Data Path')
     parser.add_argument("--data_path", type=str, required=True, help='Path to the data')
-    # Could try gpu.
     parser.add_argument("--accelerator", default='cpu')
+    parser.add_argument("--batch_size", type=int, default=8, help='Batch size for training/testing')
+    parser.add_argument("--test_split", type=float, default=0.2, help='Test split fraction')
+    parser.add_argument("--num_workers", type=int, default=15, help='Number of workers for DataLoader')
+    parser.add_argument("--img_size", type=int, nargs=2, default=[640, 480], help='Image size as tuple (width, height)')
+    parser.add_argument("--backbone", type=str, default='resnet18', help='Backbone model name')
     args = parser.parse_args()
     
-    data_module = DataModule(data_dir=args.data_path)
-    model = Backbone(num_classes=2)
+    data_module = DataModule(data_dir=args.data_path, 
+                             batch_size=args.batch_size, 
+                             img_size=tuple(args.img_size), 
+                             test_split=args.test_split, 
+                             num_workers=args.num_workers)
+    model = Backbone(backbone_name=args.backbone, num_classes=2)
 
     
     trainer = pl.Trainer(
