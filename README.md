@@ -78,6 +78,8 @@ Default settings of these parsers:
 * batch_size: 8
 * img_size: [640, 480]
 * backbone: 'resnet18'
+* class_weights: [5.0, 1.0]
+
 
 ## Possibilities of Improvements
 * `class_weights` can be tuned to force the model concentrate on Fehler, if the performance on Fehler is not that satisfied.
