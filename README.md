@@ -25,7 +25,7 @@ These are the F1 scores calculated on ALL images of these 2 classes. The inferen
 Run `train.py` under the root folder of this repo with the path of the `images` folder, accelerator, batch_size, test_split, num_workers, img_size and backbone.  
 The order of `class_weights` is `Fehler: 0, Gutteile: 1`.  
 If we assign greater weight of Fehler, then the model will focus on this class more.
-For example:
+Training command line example:
 ```
 python train.py --data_path "/home/user/Desktop/images" \
                 --accelerator "cpu" \
@@ -50,7 +50,7 @@ Default settings of these parsers:
 * class_weights: [5.0, 1.0]
 * lr: 1e-3
 
-The pretrained weights in torchvision.models:
+The pretrained weights in torchvision.models:  
 https://pytorch.org/vision/stable/models.html#classification  
 If the resnet18 is still too big for Raspberry Pi, you may try mobilenet_v3_small or mobilenet_v2_small.
 
@@ -58,7 +58,9 @@ If the resnet18 is still too big for Raspberry Pi, you may try mobilenet_v3_smal
 After training, the weights of the model will be saved as `weights.pth` under the root folder.
 
 ## Testing
-Run `test.py` under the root folder of this repo with the same parsers of `train.py`. The test will be conducted on all the images of these 2 classes (Gutteile+Fehler) and the results will be saved as a `.csv` file under the root folder. `weights.pth` needs to be placed under the root folder.
+Run `test.py` under the root folder of this repo with the same parsers of `train.py`.  
+The test will be conducted on all the images of these 2 classes (Gutteile+Fehler) and the results will be saved as a `.csv` file under the root folder.  
+`weights.pth` needs to be placed under the root folder.
 For example:
 ```
 python test.py --data_path "/home/user/Desktop/images" \
