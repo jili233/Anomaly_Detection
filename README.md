@@ -50,7 +50,7 @@ Default settings of these parsers:
 * lr: 1e-3
 
 The pretrained weights in torchvision.models:
-https://pytorch.org/vision/stable/models.html#classification
+https://pytorch.org/vision/stable/models.html#classification  
 If the resnet18 is still too big for Raspberry Pi, you may try mobilenet_v3_small or mobilenet_v2_small.
 
 ## Model Saving
