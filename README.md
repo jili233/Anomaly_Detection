@@ -22,8 +22,9 @@ This is the result on 20% shuffled images of these 2 classes.
 These are the F1 scores calculated on ALL images of these 2 classes. The inferences results of every image will be saved in `output.csv`.
 
 ## Training
-Run `train.py` under the root folder of this repo with the path of the `images` folder, accelerator, batch_size, test_split, num_workers, img_size and backbone.
-The order of `class_weights` is `Fehler: 0, Gutteile: 1`. If we assign greater weights of Fehler, then the model will focus on this class more.
+Run `train.py` under the root folder of this repo with the path of the `images` folder, accelerator, batch_size, test_split, num_workers, img_size and backbone.  
+The order of `class_weights` is `Fehler: 0, Gutteile: 1`.  
+If we assign greater weight of Fehler, then the model will focus on this class more.
 For example:
 ```
 python train.py --data_path "/home/user/Desktop/images" \
